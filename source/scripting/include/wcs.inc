@@ -16,7 +16,7 @@
  * @param index    An integer.
  * @return        Anti Ultimate Status.
  */
-native GetAntiUlt(index);
+native bool:WCS_GetAntiUlt(index);
 
 /**
  * Get client's Anti Aura Status.
@@ -24,7 +24,7 @@ native GetAntiUlt(index);
  * @param index    An integer.
  * @return        Anti Aura Status.
  */
-native GetAntiAura(index);
+native bool:WCS_GetAntiAura(index);
 
 /**
  * Get client's Anti Totem Status.
@@ -32,7 +32,7 @@ native GetAntiAura(index);
  * @param index    An integer.
  * @return        Anti Totem Status.
  */
-native GetAntiTotem(index);
+native bool:WCS_GetAntiTotem(index);
 
 /**
  * Get client's credits.
@@ -40,7 +40,7 @@ native GetAntiTotem(index);
  * @param index    An integer.
  * @return        Client's credits.
  */
-native GetCredits(index);
+native bool:WCS_GetCredits(index);
 
 /**
  * Get client's gold.
@@ -48,7 +48,7 @@ native GetCredits(index);
  * @param index    An integer.
  * @return        Client's gold.
  */
-native GetGold(index);
+native WCS_GetGold(index);
 
 /**
  * Get client's lvl.
@@ -56,7 +56,7 @@ native GetGold(index);
  * @param index    An integer.
  * @return        Client's lvl.
  */
-native GetLvl(index);
+native WCS_GetLvl(index);
 
 /**
  * Get client's race lvl.
@@ -64,7 +64,7 @@ native GetLvl(index);
  * @param index    An integer.
  * @return        Client's race lvl.
  */
-native GetCLvl(index);
+native WCS_GetCLvl(index);
 
 /**
  * Get client's Level Bank lvl.
@@ -72,7 +72,7 @@ native GetCLvl(index);
  * @param index    An integer.
  * @return        Client's Level Bank lvl.
  */
-native GetLBlvl(index);
+native WCS_GetLBlvl(index);
 
 /**
  * Get client's vip status.
@@ -80,7 +80,7 @@ native GetLBlvl(index);
  * @param index    An integer.
  * @return        true on success, false otherwise.
  */
-native bool:GetVip(index);
+native bool:WCS_GetVip(index);
 
 /**
  * Get client's xp.
@@ -88,7 +88,7 @@ native bool:GetVip(index);
  * @param index    An integer.
  * @return        Client's xp.
  */
-native GetXp(index);
+native WCS_GetXp(index);
 
 /**
  * Get client's xp difference.
@@ -96,7 +96,7 @@ native GetXp(index);
  * @param index    An integer.
  * @return        Client's xp.
  */
-native GetXpDifference(index);
+native WCS_GetXpDifference(index);
 
 /**
  * Get client's race name.
@@ -106,7 +106,7 @@ native GetXpDifference(index);
  * @params size    An integer.
  * @return        true on success.
  */
-native GetRace(index, String:race[], size);
+native bool:WCS_GetRace(index, String:race[], size);
 
 /**
  * Get client's real speed.
@@ -114,7 +114,7 @@ native GetRace(index, String:race[], size);
  * @param index    An integer.
  * @return        Client's speed.
  */
-native Float:GetRealSpeed(index);
+native Float:WCS_GetRealSpeed(index);
 
 /**
  * Get client's real gravity.
@@ -122,7 +122,7 @@ native Float:GetRealSpeed(index);
  * @param index    An integer.
  * @return        Client's speed.
  */
-native Float:GetRealGravity(index);
+native Float:WCS_GetRealGravity(index);
 
 /**
  * Get client's real alpha.
@@ -130,7 +130,7 @@ native Float:GetRealGravity(index);
  * @param index    An integer.
  * @return        Client's alpha.
  */
-native GetRealAlpha(index);
+native WCS_GetRealAlpha(index);
 
 /**
  * Get client's real health.
@@ -138,7 +138,7 @@ native GetRealAlpha(index);
  * @param index    An integer.
  * @return        Client's health.
  */
-native GetRealHealth(index);
+native WCS_GetRealHealth(index);
 
 /**
  * Get client's real model.
@@ -148,7 +148,7 @@ native GetRealHealth(index);
  * @param size     An integer.
  * @return        true on success, false otherwise.
  */
-native GetRealModel(index, String:model[], size);
+native bool:WCS_GetRealModel(index, String:model[], size);
 
 /**
  * Get random client between radius.
@@ -158,7 +158,7 @@ native GetRealModel(index, String:model[], size);
  * @param checkImmun An bool.
  * @return        random client on true.
  */
-native GetRandomPosition(client, Float:radius, bool:checkImmun);
+native WCS_GetRandomPosition(client, Float:radius, bool:checkImmun);
 
 /**
  * Get nearest client between radius.
@@ -168,7 +168,7 @@ native GetRandomPosition(client, Float:radius, bool:checkImmun);
  * @param checkImmun An bool.
  * @return        nearest client on true.
  */
-native GetBestPosition(client, Float:radius, bool:checkImmun);
+native WCS_GetBestPosition(client, Float:radius, bool:checkImmun);
 
 /**
  * Get client is admin.
@@ -176,7 +176,7 @@ native GetBestPosition(client, Float:radius, bool:checkImmun);
  * @param client    An integer.
  * @return        true if client is admin, false otherwise.
  */
-native GetWcsAdmin(client);
+native bool:WCS_GetWcsAdmin(client);
 
 /**
  * Init Effects to client & attacker [optional].
@@ -188,7 +188,7 @@ native GetWcsAdmin(client);
  * @param effect    An string.
  * @return        true on success.
  */
-native InitEffects(client, victim, effect);
+native bool:WCS_InitEffects(client, victim, effect);
 
 /**
  * Give client credits.
@@ -197,7 +197,7 @@ native InitEffects(client, victim, effect);
  * @param value    An integer.
  * @return        true on success.
  */
-native GiveCredits(client, value);
+native bool:WCS_GiveCredits(client, value);
 
 /**
  * Give client gold.
@@ -206,7 +206,7 @@ native GiveCredits(client, value);
  * @param value    An integer.
  * @return        true on success.
  */
-native GiveGold(client, value);
+native bool:WCS_GiveGold(client, value);
 
 /**
  * Give client lvl.
@@ -215,7 +215,7 @@ native GiveGold(client, value);
  * @param value    An integer.
  * @return        true on success.
  */
-native GiveLvl(client, value);
+native bool:WCS_GiveLvl(client, value);
 
 /**
  * Give client race lvl.
@@ -224,7 +224,7 @@ native GiveLvl(client, value);
  * @param value    An integer.
  * @return        true on success.
  */
-native GiveCLvl(client, value);
+native bool:WCS_GiveCLvl(client, value);
 
 /**
  * Give client Level Bank lvl.
@@ -233,7 +233,7 @@ native GiveCLvl(client, value);
  * @param value    An integer.
  * @return        true on success.
  */
-native GiveLBlvl(client, value);
+native bool:WCS_GiveLBlvl(client, value);
 
 /**
  * Give client xp.
@@ -243,7 +243,7 @@ native GiveLBlvl(client, value);
  * @param announce  An bool.
  * @return        true on success.
  */
-native GiveXp(client, value, bool:announce = true);
+native bool:WCS_GiveXp(client, value, bool:announce = true);
 
 /**
  * Take client credits.
@@ -252,7 +252,7 @@ native GiveXp(client, value, bool:announce = true);
  * @param value    An integer.
  * @return        true on success.
  */
-native TakeCredits(client, value);
+native bool:WCS_TakeCredits(client, value);
 
 /**
  * Take client gold.
@@ -261,7 +261,7 @@ native TakeCredits(client, value);
  * @param value    An integer.
  * @return        true on success.
  */
-native TakeGold(client, value);
+native bool:WCS_TakeGold(client, value);
 
 /**
  * Take client Level Bank lvl.
@@ -270,7 +270,7 @@ native TakeGold(client, value);
  * @param value    An integer.
  * @return        true on success.
  */
-native TakeLBlvl(client, value);
+native bool:WCS_TakeLBlvl(client, value);
 
 /**
  * Set client real speed.
@@ -279,7 +279,7 @@ native TakeLBlvl(client, value);
  * @param value    An float.
  * @return        true on success.
  */
-native Float:SetRealSpeed(client, value);
+native bool:WCS_SetRealSpeed(client, Float:value);
 
 /**
  * Set client real gravity.
@@ -288,7 +288,7 @@ native Float:SetRealSpeed(client, value);
  * @param value    An float.
  * @return        true on success.
  */
-native Float:SetRealGravity(client, value);
+native bool:WCS_SetRealGravity(client, Float:value);
 
 /**
  * Set client real alpha.
@@ -297,7 +297,7 @@ native Float:SetRealGravity(client, value);
  * @param value    An integer.
  * @return        true on success, false otherwise.
  */
-native SetRealAlpha(client, value);
+native bool:WCS_SetRealAlpha(client, value);
 
 /**
  * Set client real health.
@@ -306,7 +306,7 @@ native SetRealAlpha(client, value);
  * @param value    An integer.
  * @return        true on success, false otherwise.
  */
-native SetRealHealth(client, value);
+native bool:WCS_SetRealHealth(client, value);
 
 /**
  * Set client's real model.
@@ -315,7 +315,7 @@ native SetRealHealth(client, value);
  * @param model    An string.
  * @return        true on success, false otherwise.
  */
-native SetRealModel(index, const String:model[]);
+native bool:WCS_SetRealModel(index, const String:model[]);
 
 /**
  * Set client's race.
@@ -325,7 +325,7 @@ native SetRealModel(index, const String:model[]);
  * @param suicide  An bool. (Check or not CVAR 'wcs_cr_suicide' = 1 then client will be killed)
  * @return        true on success, false otherwise.
  */
-native SetRace(index, const String:race[], bool:suicide = true);
+native bool:WCS_SetRace(index, const String:race[], bool:suicide = true);
 
 /**
  * Reset client's skills.
@@ -334,7 +334,7 @@ native SetRace(index, const String:race[], bool:suicide = true);
  * @param fully    An bool. (if true then dont reuse skills after this operation)
  * @return        true on success, false otherwise.
  */
-native ResetSkills(client, bool:fully);
+native bool:WCS_ResetSkills(client, bool:fully);
 
 /**
  * Reset client ultimate cooldown.
@@ -342,7 +342,7 @@ native ResetSkills(client, bool:fully);
  * @param client    An integer.
  * @return        true on success.
  */
-native ResetUltCld(client);
+native bool:WCS_ResetUltCld(client);
 
 /**
  * Reset client ability cooldown.
@@ -350,95 +350,95 @@ native ResetUltCld(client);
  * @param client    An integer.
  * @return        true on success, false otherwise.
  */
-native ResetAbilityCld(client);
+native bool:WCS_ResetAbilityCld(client);
 
 /**
  * Called on client skill lvl up
  *
  */
-forward OnSkillLvlUp(client, skilllvl, const String:skillname[]);
+forward WCS_OnSkillLvlUp(client, skilllvl, const String:skillname[]);
 
 /**
  * Called on client lvl up
  *
  */
-forward OnLvlUp(client, lvl);
+forward WCS_OnLvlUp(client, lvl);
 
 /**
  * Called on client ultimate cooldown has finished
  *
  */
-forward OnUltimateCld(client);
+forward WCS_OnUltimateCld(client);
 
 /**
  * Called on client ability cooldown has finished
  *
  */
-forward OnAbilityCld(client);
+forward WCS_OnAbilityCld(client);
 
 /**
  * Called on client skills has resetted
  *
  */
-forward OnSkillsReset(client);
+forward WCS_OnSkillsReset(client);
 
 /**
  * Called on client xp gain
  *
  */
-forward OnXpGain(client, xp, bool:lvlup);
+forward WCS_OnXpGain(client, xp, bool:lvlup);
 
 /**
  * Called on client gold gain
  *
  */
-forward OnGoldGain(client, gold);
+forward WCS_OnGoldGain(client, gold);
 
 /**
  * Called on client ultimate pre
  *
  */
-forward Action:OnUltimatePre(client, const String:ultimate[]);
+forward Action:WCS_OnUltimatePre(client, const String:ultimate[]);
 
 /**
  * Called on client ultimate post
  *
  */
-forward OnUltimatePost(client);
+forward WCS_OnUltimatePost(client);
 
 /**
  * Called on client ability pre
  *
  */
-forward Action:OnAbilityPre(client, const String:ability[]);
+forward Action:WCS_OnAbilityPre(client, const String:ability[]);
 
 /**
  * Called on client ability post
  *
  */
-forward OnAbilityPost(client);
+forward WCS_OnAbilityPost(client);
 
 /**
  * Called on client change race pre
  *
  */
-forward Action:OnRaceChangePre(client, const String:OldRace[], const String:NewRace[]);
+forward Action:WCS_OnRaceChangePre(client, const String:OldRace[], const String:NewRace[]);
 
 /**
  * Called on client change race post
  *
  */
-forward OnRaceChangePost(client);
+forward WCS_OnRaceChangePost(client);
 
 /**
  * Called on client item purchase pre
  *
  * PaymentType -- "cash" или "gold"
  */
-forward Action:OnItemPurchasePre(client, const String:ItemName[], const String:BlockName[], ItemCost, const String:PaymentType[]);
+forward Action:WCS_OnItemPurchasePre(client, const String:ItemName[], const String:BlockName[], ItemCost, const String:PaymentType);
 
 /**
  * Called on client item purchase post
  *
  */
-forward OnItemPurchasePost(client);
+forward WCS_OnItemPurchasePost(client);
