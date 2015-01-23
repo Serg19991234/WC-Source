@@ -1,0 +1,2115 @@
+﻿"Phrases"
+{
+	// All phrases translations:
+	"Your xp saved"
+	{
+		"ru"	"Ваши уровни успешно сохранены."
+		"en"	"Your lvl's saved."
+	}
+	"You get xp"
+	{
+		"#format"	"{1:d},{2:d},{3:d},{4:d}"
+		"ru"	"{default}Вы получили {green}{1} {default}XP. [ XP: {2} / {3} | Уровень: {4}]"
+		"en"	"{default}You get {green}{1} XP. {default}[ XP: {2} / {3} | lvl: {4}]"
+	}
+	"You get xp dmg"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Вы получили:\n{1} XP"
+		"en"	"You get:\n{1} XP"
+	}
+	"Player spawn info"
+	{
+		"#format"	"{1:s},{2:d},{3:d},{4:d}"
+		"ru"	"Текущая раса: {blue}{1}{default}. [ XP: {2} / {3} | Уровень: {4} ] "
+		"en"	"Current race: {blue}{1}{default}. {default}[ XP: {2} / {3} | lvl: {4}]"
+	}
+	"Your race changed"
+	{
+		"#format"	"{1:s}"
+		"ru"	"Ваша раса успешно изменена на {blue}{1}{default}."
+		"en"	"Your race successfully changed on {blue}{1}{default}."
+	}
+	"Race team restrict"
+	{
+		"ru"	"Для вашей расы {red}запрещена эта команда."
+		"en"	"For your race {red}is restrict this team."
+	}
+	"Race team count restrict"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ru"	"Вам запрещено использовать данную расу, т.к. {red}лимит команды превышен. {default}({1}/{2})"
+		"en"	"You can't use this race, because {red}team limit is exceeded. {default}({1}/{2})"
+	}
+	"Race total count restrict"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ru"	"Вам запрещено использовать данную расу, т.к. {red}общий команды превышен. {default}({1}/{2})"
+		"en"	"You can't use this race, because {red}global limit is exceeded. {default}({1}/{2})"
+	}
+	"Race weapon restrict"
+	{
+		"#format"	"{1:s}"
+		"ru"	": Оружие {blue}{1} {red}запрещено для вашей расы."
+		"en"	": Weapon {blue}{1} {red}is restricted for your race."
+	}
+	"Ultimate dw now"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Ультимэйт в данный момент откатывается. {default}(осталось: {1} сек.)"
+		"en"	"Ultimate is not activated now, because the time is not over. {default}( wait: {1} sec.)"
+	}
+	"Ability dw now"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Абилити в данный момент откатывается. {default}(осталось: {1} сек.)"
+		"en"	"Ability is not activated now, because the time is not over. {default}( wait: {1} sec.)"
+	}
+	"Your ult is reset"
+	{
+		"ru"	"Ваш ультимэйт откатился."
+		"en"	"Your ultimate cooldown is reset."
+	}
+	"Your ability is reset"
+	{
+		"ru"	"Ваш абилити откатился."
+		"en"	"Your ability cooldown is reset."
+	}
+	"Your aim-target is freezed"
+	{
+		"#format"	"{1:s},{2:N}"
+		"ru"	"{default}{1}: {default}Ваша цель: {red}{2} {default}заморожена."
+		"en"	"{default}{1}: {default}Your target: {red}{2} {default}is freezed."
+	}
+	"Your aim-target is damaged"
+	{
+		"#format"	"{1:s},{2:N}"
+		"ru"	"{default}{1}: {default}Ваша цель: {red}{2} {default}получила урон."
+		"en"	"{default}{1}: {default}Your target: {red}{2} {default}is damaged."
+	}
+	"Your aim-target is vampired"
+	{
+		"#format"	"{1:s},{2:N}"
+		"ru"	"{default}{1}: {default}Ваша цель: {red}{2} {default}получила укус вампира."
+		"en"	"{default}{1}: {default}Your target: {red}{2} {default}is получила укус вампира."
+	}
+	"Choose race"
+	{
+		"ru"	"Выберите расу."
+		"en"	"Choose race."
+	}
+	"Message"
+	{
+		"#format"	"{1:N},{2:s}"
+		"ru"	"{green}{1}: {default}{2}"
+		"en"	"{green}{1}: {default}{2}"
+	}
+	"MessageToMe"
+	{
+		"#format"	"{1:s}"
+		"ru"	"{1:s}"
+		"en"	"{1:s}"
+	}
+	"You get lvl"
+	{
+		"#format"	"{1:d},{2:d},{3:d}"
+		"ru"	"{default} Вы получили {green}новый уровень. {default}[ XP: {1} / {2} | Уровень: {3}]"
+		"en"	"You get {green}new lvl. {default}[ XP: {1} / {2} | lvl: {3}]"
+	}
+	"You get item"
+	{
+		"#format"	"{1:s}"
+		"ru"	"Вы успешно приобрели предмет {blue}{1}."
+		"en"	"You are successfully get item {blue}{1}."
+	}
+	"Player have antiult"
+	{
+		"#format"	"{1:N}"
+		"ru"	"Ультимэйт не прошел по игроку {red}{1} {default}, так как у него защита."
+		"en"	"Ultimate is not effect to player {blue}{1} {default}, because he got protect."
+	}
+	"Player have antiaura"
+	{
+		"#format"	"{1:N}"
+		"ru"	"Аура не прошла по игроку {red}{1} {default}, так как у него защита."
+		"en"	"Aura is not effect to player {blue}{1} {default}, because he got protect."
+	}
+	"Ultimate on re is off"
+	{
+		"ru"	"{default}После окончания раунда {red}запрещено использовать {green}ультимэйт."
+		"en"	"After round {default}end {red}you can't use {green}ultimate."
+	}
+	"Ability on re is off"
+	{
+		"ru"	"После окончания {default}раунда {red}запрещено использовать {green}абилити."
+		"en"	"After round {default}end {red}you can't use {green}ability."
+	}
+	"The race is disabled on this map"
+	{	
+		"#format"	"{1:s}"
+		"ru"	"На карт(е/ах) {green}{1} {default}запрещена {default}данная раса. Смена на 1ую по списку расу."
+		"en"	"On map(s) {green}{1} {default}restricted {default}this race. Auto change race to 1 in race list."
+	}
+	"Race max lvl restrict"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ru"	"{red}Вы превысили лимит уровней для этой расы на {blue}{1} уровней. {default}[Лимит: {2}]"
+		"en"	"{red}You've exceeded limit levels for this race in {1} levels. {default}[Limit: {2}]"
+	}
+	"Gold converted"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Вы успешно приобрели {blue}{1} {green}золота."
+		"en"	"You are successfully get {blue}{1} {green}gold."
+	}
+	"no need cash"
+	{
+		"#format"	"{1:d}"
+		"ru"	"{red}Недостаточно денег для конвертирования их в золото. {default}(Нужно: {1})"
+		"en"	"{red}Not enough money to convert it into gold. {default}(Need: {1})"
+	}
+	"No have points"
+	{
+		"ru"	"{red}У Вас нет неиспользованных очков."
+		"en"	"{redYou no have unused points."
+	}
+	"Left unused points"
+	{
+		"ru"	"Осталось неиспользованных очков"
+		"en"	"Left unused points"
+	}
+	"All skills are maxed"
+	{
+		"ru"	"{lightgreen}Все скиллы уже достигли максимальных уровней."
+		"en"	"{lightgreen}All skills are max levels."
+	}
+	"You cant change race nr"
+	{
+		"ru"	"{red}Вы сейчас не можете сменить расу, подождите начала следующего раунда."
+		"en"	"{red}Now you can't change race, please, wait start of next round."
+	}
+	"Now you cant change race lt"
+	{
+		"ru"	"{lightgreen}Вы больше не сможете сменить расу в этом раунде."
+		"en"	"{lightgreen}You'll not able to change race in this round."
+	}
+	"You cant change race limit"
+	{
+		"#format"	"{1:d}"
+		"ru"	"{lightgreen}Вы больше не можете сменить расу, Вы уже превысили лимит за этот раунд. {default}[{1}]"
+		"en"	"{lightgreen}Now you can't change race, You are already exceeded the limit for that round. {default}[{1}]"
+	}
+	"player stuck"
+	{
+		"ru"	"{lightgreen}Невозможно создать предмет. Кто-нибудь застрянет..."
+		"en"	"{lightgreen}You can not spawn prop. Player stuck..."
+	}
+	"player block resp"
+	{
+		"ru"	"{lightgreen}Запрещено застраивать точку респауна."
+		"en"	"{lightgreen}Forbidden to build up the respawn."	
+	}
+	"prop block building"
+	{
+		"ru"	"{lightgreen}Запрещено застраивать сооружение."
+		"en"	"{lightgreen}Forbidden to build up the building."
+	}
+	"InfoRightMenu"
+	{
+		"#format"	"{1:s},{2:d},{3:d},{4:d},{5:.1f},{6:.1f},{7:.1f}"
+		"ru"	"Текущая раса: {1}\nУровень: {2}\nЗолото: {3}\nЗдоровье: {4}\nСкорость: {5}\nГравитация: {6}\nНевидимость: {7}"
+		"en"	"Current race: {1}\nLevel: {2}\nGold: {3}\nHealth: {4}\nSpeed: {5}\nGravity: {6}\nInvisibility: {7}"
+	}
+	"InfoRightMenuSpec"
+	{
+		"#format"	"{1:N},{2:s},{3:d},{4:d},{5:d},{6:.1f},{7:.1f},{8:.1f}"
+		"ru"	"{1}:\nТекущая раса: {2}\nУровень: {3}\nЗолото: {4}\nЗдоровье: {5}\nСкорость: {6}\nГравитация: {7}\nНевидимость: {8}"
+		"en"	"{1}:\nCurrent race: {2}\nLevel: {3}\nGold: {4}\nHealth: {5}\nSpeed: {6}\nGravity: {7}\nInvisibility: {8}"
+	}
+	"Skills resetted"
+	{
+		"ru"	"Скиллы успешно сброшены."
+		"en"	"Skills successfully resetted."
+	}
+	"Race is max lvl - no more xp"
+	{
+		"ru"	"{red}Вы больше не можете получать опыт. {green}(Максимальный уровень расы)"
+		"en"	"{red}You cant get more xp. {green}(Race is max lvl)"
+	}
+	"ChangeRace: You cant cr when not on respawn"
+	{
+		"ru"	"Смена расы доступна только на точке респавна."
+		"en"	"Change race can only be at spawn point."
+	}
+
+	// WCS menu translations:
+	"ShopMenu"
+	{
+		"ru"	"Магазин"
+		"en"	"Shopmenu"
+	}
+	"ShopInfo"
+	{
+		"ru"	"Информация о магазине"
+		"en"	"Shopinfo"
+	}
+	"ChangeRace"
+	{
+		"ru"	"Сменить расу"
+		"en"	"Changerace"
+	}
+	"ChangeRaceFavorite"
+	{
+		"ru"	"Сменить расу[Выбранные]"
+		"en"	"Change Race[Favorites]"
+	}
+	"SpendSkills"
+	{
+		"ru"	"Прокачать скиллы"
+		"en"	"Spend skills"
+	}
+	"ResetSkills"
+	{
+		"ru"	"Сбросить скиллы"
+		"en"	"Reset skills"
+	}
+	"RaceInfo"
+	{
+		"ru"	"Информация о расах"
+		"en"	"Raceinfo"
+	}
+	"PlayerInfo"
+	{
+		"ru"	"Информация о игроках"
+		"en"	"Playerinfo"
+	}
+	"LevelBank"
+	{
+		"ru"	"Банк уровней"
+		"en"	"Level bank"
+	}
+	"WCSHelp"
+	{
+		"ru"	"Помощь"
+		"en"	"Help"
+	}
+	"PlayerSettings"
+	{
+		"ru"	"Настройки"
+		"en"	"Settings"
+	}
+	"CurrentRace"
+	{
+		"#format"	"{1:s}"
+		"ru"	"Текущая раса: {1}"
+		"en"	"Current race: {1}"
+	}
+	"Skill lvl up"
+	{
+		"#format"	"{1:s},{2:d}"
+		"ru"	"Скилл {blue}'{1}' {default}повышен до уровня {default}{2}{default}."
+		"en"	"Skill {blue}'{1}' {default}up to lvl {default}{2}{default}."
+	}
+
+	// RaceInfo menu translations:
+	"PrivateRace"
+	{
+		"#format"	"{1:s}"
+		"ru"	"{1} (Приватная раса)"
+		"en"	"{1} (Private race)"
+	}
+	"RestrictMapRace"
+	{
+		"#format"	"{1:s}"
+		"ru"	"{1} (Запрещена на текущей карте)"
+		"en"	"{1} (Restricted on this map)"
+	}
+	"RaceTrue"
+	{
+		"#format"	"{1:s},{2:d}"
+		"ru"	"{1} (Уровень: {2})"
+		"en"	"{1} (Required lvl: {2})"
+	}
+	"True"
+	{
+		"#format"	"{1:s}"
+		"ru"	"{1}"
+		"en"	"{1}"
+	}
+	"Selected"
+	{
+		"#format"	"{1:s}"
+		"ru"	"{1} (Текущая раса)"
+		"en"	"{1} (Current race)"
+	}
+	"ReqLvlRace"
+	{
+		"#format"	"{1:d}"
+		"ru"	"(Требуемый уровень {1})"
+		"en"	"(Required lvl {1})"
+	}
+
+	// ChangeRace translations:
+	"ChangeRace: Cat access disable"
+	{
+		"ru"	"Нет доступа"
+		"en"	"No access"
+	}
+	"ChangeRace: Cat is empty"
+	{
+		"ru"	"Категория пуста"
+		"en"	"Category is empty"
+	}
+
+	// ChangeRace[Favorites] translations:
+	"AddRaces"
+	{
+		"ru"	"Добавить расы"
+		"en"	"Add races"
+	}
+	"RemoveRaces"
+	{
+		"ru"	"Удалить расы"
+		"en"	"Remove races"
+	}
+	"Race added"
+	{
+		"#format"	"{1:s}"
+		"ru"	"Раса: {blue}{1} {default}добавлена."
+		"en"	"Race: {blue}{1} {default}added."
+	}
+	"Race removed"
+	{
+		"#format"	"{1:s}"
+		"ru"	"Раса: {blue}{1} {default}удалена."
+		"en"	"Race: {blue}{1} {default}removed."
+	}
+	
+	// RaceInfo menu translations:
+	"Author"
+	{
+		"#format"	"{1:s}"
+		"ru"	"[Автор: {1}]:"
+		"en"	"[Author: {1}]:"
+	}
+	"ReqLvlRaceSay"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Требуемый уровень: {1}"
+		"en"	"Required lvl: {1}"
+	}
+	"RaceUltimate"
+	{
+		"#format"	"{1:s}"
+		"ru"	"Ультимэйт: {1}"
+		"en"	"Ultimate: {1}"
+	}
+	"RaceUltimateMenu"
+	{
+		"ru"	"Ультимэйты"
+		"en"	"Ultimates"
+	}
+	"NoUltimate"
+	{
+		"ru"	"Ультимэйта нет"
+		"en"	"No have ultimate"
+	}
+	"RaceAbility"
+	{
+		"#format"	"{1:s}"
+		"ru"	"Ультимэйт 2: {1}"
+		"en"	"Ultimate 2: {1}"
+	}
+	"NoUltimate2"
+	{
+		"ru"	"Ультимэйта 2 нет"
+		"en"	"No have ultimate 2"
+	}
+	"RestrictedMapsRace"
+	{
+		"#format"	"{1:s}"
+		"ru"	"Запрещенные карты: {1}"
+		"en"	"Restricted maps: {1}"
+	}
+	"RestrictedMapsRacex"
+	{
+		"ru"	"Запрещенные карты"
+		"en"	"Restricted maps"
+	}
+	"NoRestrictedMaps"
+	{
+		"ru"	"Нет запрещенных карт"
+		"en"	"No have restricted maps"
+	}
+	"Skills"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Скиллы: {1}"
+		"en"	"Skills: {1}"
+	}
+	
+	// WCSTOP menu translations:
+	"Top10"
+	{
+		"ru"	"TOP 10 игроков:"
+		"en"	"TOP 10 players:"
+	}
+	"Lvl"
+	{
+		"ru"	"уровень"
+		"en"	"lvl"
+	}
+	"ExitTop"
+	{
+		"ru"	"Выход"
+		"en"	"Exit"
+	}
+
+	// SpendSkills menu translations:
+	"SkillMaxLvl"
+	{
+		"ru"	"[Максимальный уровень]"
+		"en"	"[Max lvl]"
+	}
+	"NotEnoughLvlSkill"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ru"	"[Недостаточный уровень({1}/{2})]"
+		"en"	"[Not enough lvl({1}/{2})]"
+	}
+
+	// PlayerInfo menu translations:
+	"SelectPlayerInfo"
+	{
+		"ru"	"Выберите игрока:"
+		"en"	"Select player:"
+	}
+	"PInfoAboutMe"
+	{
+		"#format"	"{1:s},{2:d}"
+		"ru"		"Обо мне - {1} [{2}]\n\n"
+		"en"		"About me - {1} [{2}]\n\n"
+	}
+	"PInfoRace"
+	{
+		"#format"	"{1:s},{2:d}"
+		"ru"	"Раса: {1} ({2} уровень)"
+		"en"	"Race: {1} ({2} level)"
+	}
+	"PInfoLevel"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Уровень: {1}"
+		"en"	"Level: {1}"
+	}
+	"PInfoSpeed"
+	{
+		"#format"	"{1:.1f}"
+		"ru"	"Скорость: {1}"
+		"en"	"Speed: {1}"
+	}
+	"PInfoHealth"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Здоровье: {1}"
+		"en"	"Health: {1}"
+	}
+	"PInfoGravity"
+	{
+		"#format"	"{1:.1f}"
+		"ru"	"Гравитация: {1}"
+		"en"	"Gravity: {1}"
+	}
+	"PInfoInvis"
+	{
+		"#format"	"{1:.1f}"
+		"ru"	"Невидимость: {1}"
+		"en"	"Invisibility: {1}"
+	}
+	"PInfoDead"
+	{
+		"ru"	"Мертв"
+		"en"	"Dead"
+	}
+	"PInfoGold"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Золото: {1}"
+		"en"	"Gold: {1}"
+	}
+	"PInfoCredits"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Кредиты: {1}"
+		"en"	"Credits: {1}"
+	}
+	"PInfoRaceInfo"
+	{
+		"#format"	"{1:s}"
+		"ru"	"Информация о расе \"{1}\""
+		"en"	"Information about race \"{1}\""
+	}
+	"PInfoSkillsInfo"
+	{
+		"ru"	"Навыки"
+		"en"	"Skills"
+	}
+
+	// ShopMenu menu translations:
+	"Total gold"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Всего золота: {1}"
+		"en"	"Total gold: {1}"
+	}
+	"Total credits"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Всего кредитов: {1}"
+		"en"	"Total credits: {1}"
+	}
+	"Shop: Only Alive"
+	{
+		"ru"	"{red}Только живые игроку могут пользоваться магазином."
+		"en"	"{red}Only alive players can use shop."
+	}
+	"Shop: Cat access disable"
+	{
+		"ru"	"Нет доступа"
+		"en"	"No access"
+	}
+	"Shop: Cat limit disable"
+	{
+		"ru"	"Превышен лимит"
+		"en"	"Превышен лимит"
+	}
+
+	// LevelBank menu translations:	
+	"LBtitle"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Банк уровней: {1} уровней"
+		"en"	"Level bank: {1} levels"
+	}
+	"LBNoLvls"
+	{
+		"ru"	"В Вашем банке нет уровней."
+		"en"	"In your bank no lvls"
+	}
+	"LBLvlToRace"
+	{
+		"#format"	"{1:s}"
+		"ru"	"Потратить уровни на расу: {1}"
+		"en"	"Spend levels to race: {1}"
+	}
+	"LBLvlTransfer"
+	{
+		"ru"	"Передать уровни"
+		"en"	"Transfer levels"
+	}
+	"LBLvlToBank"
+	{
+		"ru"	"Положить уровни в банк\n"
+		"en"	"Put levels in the bank\n"
+	}
+	"LBAdmin"
+	{
+		"ru"	"Админ меню"
+		"en"	"Admin menu"
+	}
+	"LB1lvl"
+	{
+		"ru"	"1 уровень"
+		"en"	"1 lvl"
+	}
+	"LB5lvl"
+	{
+		"ru"	"5 уровеней"
+		"en"	"5 lvls"
+	}
+	"LB10lvl"
+	{
+		"ru"	"10 уровеней"
+		"en"	"10 lvls"
+	}
+	"LB50lvl"
+	{
+		"ru"	"50 уровеней"
+		"en"	"50 lvls"
+	}
+	"LB100lvl"
+	{
+		"ru"	"100 уровней"
+		"en"	"100 lvls"
+	}
+	"LBAlllvl"
+	{
+		"ru"	"Все уровни"
+		"en"	"All lvls"
+	}
+	"LBGive"
+	{
+		"ru"	"Дать игроку уровни"
+		"en"	"Give lvls to player"
+	}
+	"LBTake"
+	{
+		"ru"	"Отнять уровни у игрока"
+		"en"	"Take player lvls"
+	}
+	"LBReset"
+	{
+		"ru"	"Обнулить игрока"
+		"en"	"Reset player"
+	}
+	"LBResetAll"
+	{
+		"ru"	"Обнулить базу LB"
+		"en"	"Reset LB db"
+	}
+	"LBSettings"
+	{
+		"ru"	"Настройки"
+		"en"	"Settings"
+	}
+	"LB: lvl to bank"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Вы положили в Ваш банк: {red}{1} уровней."
+		"en"	"You are put in your bank: {red}{1} lvls."
+	}
+	"LB: transfer"
+	{
+		"#format"	"{1:d},{2:N}"
+		"ru"	"Вы перевели {red}{1} уровней {default}в банк игроку {blue}{2}"
+		"en"	"You are transfer {red}{1} lvls {default}to bank player {blue}{2}"
+	}
+	"LB: transfer to"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"Игрок {blue}{1} {default}перевел в Ваш банк {red}{2} уровней."
+		"en"	"Player {blue}{1} {default}transfer to your bank {red}{2} lvls."
+	}
+	"LB: lvl to race"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Вы перевели на Вашу расу: {red}{1} уровней."
+		"en"	"You are transfer to your race: {red}{1} lvls."
+	}
+	"LB: disabled"
+	{
+		"ru"	"Банк уровней в настоящее время {red}выключен."
+		"en"	"Level bank at current time {red}is disabled."
+	}
+	"LBResetLvl"
+	{
+		"ru"	"Сбросить уровни"
+		"en"	"Сбросить уровни"
+	}
+	"LBAlllvls"
+	{
+		"ru"	"Обнулить базу"
+		"en"	"Обнулить базу"
+	}
+	"LBAdmin: You get lvls"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"Администратора {red}{1} {default}дал Вам {blue}{2} {default}уровней."
+		"en"	"Administrator {red}{1} {default}give to you {blue}{2} {default}lvls."
+	}
+	"LBAdmin: you give lvls"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"Вы успешно дали игроку {red}{1} {blue}{2} {default}уровней."
+		"en"	"You are successfully given to player {red}{1} {blue}{2} {default}lvls."
+	}
+	"LBAdmin: You lose lvls"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"Администратора {red}{1} {default}отнял у Вас {blue}{2} {default}уровней."
+		"en"	"Administrator {red}{1} {default}take your {blue}{2} {default}lvls."
+	}
+	"LBAdmin: you take lvls"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"Вы успешно отняли у игрока {red}{1} {blue}{2} {default}уровней."
+		"en"	"You are successfully taken from player {red}{1} {blue}{2} {default}lvls."
+	}
+	"LBAdmin: You resetted"
+	{
+		"#format"	"{1:N}"
+		"ru"	"Администратор {red}{1} {default}обнулил Ваш банк уровней."
+		"en"	"Administrator {red}{1} {default}reset your Level Bank."
+	}
+	"LBAdmin: you reset lvls"
+	{
+		"#format"	"{1:N}"
+		"ru"	"Вы обнулили банк уровней игрока {red}{1}."
+		"en"	"You are reset level bank player {red}{1}."
+	}
+	"LBAdmin: db resetted"
+	{
+		"ru"	"База данных банка уровней успешно обнулена."
+		"en"	"Database of Level Bank successfully resetted."
+	}
+	"LB: Banned"
+	{
+		"#format"	"{1:d}"
+		"ru"	"{red}Вы забанены в Банке Уровней. {default}[{green}До разбана осталось: {olive}{1} минут{default}]"
+		"en"	"{red}You have been banned from Level Bank. {default}[{green}Until unban left: {olive}{1} mins{default}]"
+	}
+	"LB: Banned by admin client"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"{red}Вы были забанены администратором {blue}{1} {red}на {default}{2} минут в Банке Уровней."
+		"en"	"{red}You have been banned by administrator {blue}{1} {red}for {default}{2} mins from lvl bank."
+	}
+	"LB: Banned by admin admin"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"{red}Вы забанили игрока {blue}{1} {red}на {default}{2} минут в Банке Уровней."
+		"en"	"{red}You are successfully banned player {blue}{1} {red}for {default}{2} mins from lvl bank."
+	}
+	"LB: Cant ban admin"
+	{
+		"ru"	"{red}Вы не можете банить администраторов."
+		"en"	"{red}You cant ban administrators."
+	}
+	"LB: Player unbanned admin"
+	{
+		"#format"	"{1:N}"
+		"ru"	"{blue}Вы разбанили игрока {olive}{1}."
+		"en"	"{blue}You are successfully unbanned player {olive}{1}."
+	}
+	"LB: Player unbanned client"
+	{
+		"#format"	"{1:N}"
+		"ru"	"{blue}Вы были разбанены администратором {olive}{1}."
+		"en"	"{blue}You are successfully unbanned by administrator {olive}{1}."
+	}
+
+	// PlayerSettingsMenu translations:
+	"HideLearnedRaces"
+	{
+		"ru"	"Скрывать прокаченные расы"
+		"en"	"Hide learned races"
+	}
+	"HideStats"
+	{
+		"ru"	"Скрывать статистику"
+		"en"	"Hide stats"
+	}
+	"AutoBuyFavItems"
+	{
+		"ru"	"Автозакуп избранных предметов"
+		"en"	"Auto buy fav items"
+	}
+
+	// PlayerSettings chat translations:
+	"HideRacesMsgOn"
+	{
+		"ru"	"Прокаченные расы [Скрыты]"
+		"en"	"Learned races [Hidden]"
+	}
+	"HideRacesMsgOff"
+	{
+		"ru"	"Прокаченные расы [Отображаются]"
+		"en"	"Learned races [Visible]"
+	}
+	"HideStatsMsgOn"
+	{
+		"ru"	"Статистика [Скрыта]"
+		"en"	"Stats [Hidden]"
+	}
+	"HideStatsMsgOff"
+	{
+		"ru"	"Статистика [Отображается]"
+		"en"	"Stats [Visible]"
+	}
+
+	// ShopMenu restricted item translations:
+	"Item restricted fyr"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ru"	"Предмет {blue}{1} {default}запрещен на расе {green}{2}{default}."
+		"en"	"Item {blue}{1} {default}is restricted for race {green}{2}{default}."
+	}
+	"Left item limit"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ru"		"Вы можете купить еще {blue}{1} {red}{2}{default}."
+		"en"		"You will can buy {blue}{1} {red}{2}{default}."
+	}
+	"You will cant buy item"
+	{
+		"#format"	"{1:s}"
+		"ru"		"Вы больше не сможете купить {red}{1}{default}."
+		"en"		"You will not able to buy {red}{1}{default}."
+	}
+	"Price gold"
+	{
+		"#format"	"{1:s},{2:d}"
+		"ru"	"{1} (Цена: {2} голда)"
+		"en"	"{1] (Price: {2} gold)"
+	}
+	"Price cash"
+	{
+		"#format"	"{1:s},{2:d}"
+		"ru"	"{1} (Цена: {2} $)"
+		"en"	"{1} (Price: {2} $)"
+	}
+	"RestrictedItem"
+	{
+		"#format"	"{1:s}"
+		"ru"	"{1} (Запрещенный предмет)"
+		"en"	"{1} (Restricted item)"
+	}
+	"Price credits"
+	{
+		"#format"	"{1:s},{2:d}"
+		"ru"	"{1} (Цена: {2} кредитов)"
+		"en"	"{1} (Price: {2} credits)"
+	}
+
+	// Reload Plugin translations:
+	"After 10 secs rp"
+	{
+		"ru"	"Через {blue}10 секунд {default}произойдет {red}перезагрузка мода{default}."
+		"en"	"After {blue}10 second's {default}will {red}reloading mod{default}."
+	}
+
+	// Vip translations:
+	"Vip message on spawn"
+	{
+		"#format"	"{1:N},{2:d},{3:s}"
+		"ru"	"{default}{1}{default}, желаем Вам приятной игры! {blue}Опыт увеличен на: {red}{2}%%  [{3}]"
+		"en"	"{default}{1}{default}, good game for you! {blue}XP increased by: {red}{2}%%  [{3}]"
+	}
+
+	// Skills translations:
+	"Skill: Remove"
+	{
+		"#format"	"{1:d}"
+		"ru"	"У вас отнято оружие под слотом: {red}{1}{default}."
+		"en"	"Your weapon taked by slot: {red}{1}{default}."
+	}
+	"Skill: Give"
+	{
+		"#format"	"{1:s}"
+		"ru"	"Вы получили оружие: {red}{1}{default}."
+		"en"	"You are get weapon: {red}{1}{default}."
+	}
+	"Skill: Invis"
+	{
+		"#format"	"{1:.1f}"
+		"ru"	"Вы получили невидимость. Теперь вы невидимы на {red}{1}%%"
+		"en"	"You are get invisible. Now your invisible is {red}{1}%%"
+	}
+	"Skill: Invis weapon"
+	{
+		"#format"	"{1:.1f}"
+		"ru"	"Ваше оружие стало невидимым. Теперь оно невидимо на {red}{1}%%"
+		"en"	"Your weapon get invisible. Now it invisible is {red}{1}%%"
+	}
+	"Skill: Invis all"
+	{
+		"#format"	"{1:.1f}"
+		"ru"	"Вы и ваше оружие стали невидимыми: {red}{1}%%"
+		"en"	"You and your weapon now are invisible: {red}{1}%%"
+	}
+	"Skill: Clip"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Вы получили: {red}{1} {default}патронов в обойму."
+		"en"	"You are get: {red}{1} {default}ammo's to weapon."
+	}
+	"Skill: Jetpack off"
+	{
+		"ru"	"[{default}Jetpack{default}]{default}: {red}Деактивирован."
+		"en"	"[{default}Jetpack{default}]{default}: {red}Deactivated."
+	}
+	"Skill: Jetpack on"
+	{
+		"ru"	"[{default}Jetpack{default}]{default}: {blue}Активирован."
+		"en"	"[{default}Jetpack{default}]{default}: {blue}Activated."
+	}
+	"Skill: Color"
+	{
+		"#format"	"{1:d},{2:d},{3:d}"
+		"ru"	"Ваш цвет изменен на: {green}{1}, {2}, {3}{default}."
+		"en"	"Your color is changed to: {green}{1}, {2}, {3}{default}."
+	}
+	"Skill: Boom"
+	{
+		"#format"	"{1:.1f},{2:.1f}"
+		"ru"	"Взрыв после смерти {blue}активирован{default}. Урон от него: {red}{1}{default}, радиус действия: {red}{2}"
+		"en"	"Explode on death {blue}is activated{default}. Damage: {red}{1}{default}, Radius: {red}{2}"
+	}
+	"Skill: Boom event kill"
+	{
+		"#format"	"{1:.1f},{2:N}"
+		"ru"	"{default}[Boom]{default} Вы нанесли {red}{1} {default}урона игроку {blue}{2} {default}, и это стало {red}сокрушительным {default}для него."
+		"en"	"{default}[Boom]{default} You deal {red}{1} {default}damage to player {blue}{2} {default}and it was {red}smashing blow {default}for him."
+	}
+	"Skill: Boom event kill enemy"
+	{
+		"#format"	"{1:.1f},{2:N}"
+		"ru"	"{default}[Boom]{default} Вы получили {red}{1} {default}урона от игрока {blue}{2} {default}, и это стало {red}сокрушительным {default}для Вас."
+		"en"	"{default}[Boom]{default} You got {red}{1} {default}damage by player {blue}{2} {default}and it was {red}smashint blow {default}for you."
+	}
+	"Skill: Boom event hurt"
+	{
+		"#format"	"{1:.1f},{2:N}"
+		"ru"	"{default}[Boom]{default} Вы нанесли {red}{1} {default}урона игроку {blue}{2}."
+		"en"	"{default}[Boom]{default} You deal {red}{1} {default}damage to player {blue}{2}."
+	}
+	"Skill: Boom event hurt enemy"
+	{
+		"#format"	"{1:.1f},{2:N}"
+		"ru"	"{default}[Boom]{default} Вы получили {red}{1} {default}урона от игрока {blue}{2}."
+		"en"	"{default}[Boom]{default} You got {red}{1} {default}damage by player {blue}{2}."
+	}
+	"Skill: AntiAura"
+	{
+		"ru"	"Защита от ауры {blue}активирована{default}."
+		"en"	"Aura protection {blue}is activated{default}."
+	}
+	"Skill: AntiUlt"
+	{
+		"ru"	"Защита от ультимэйтов {blue}активирована{default}."
+		"en"	"Ultimate protection {blue}is activated{default}."
+	}
+	"Skill: AntiTotem"
+	{
+		"ru"	"Защита от тотемов {blue}активирована{default}."
+		"en"	"Totem protection {blue}is activated{default}."
+	}
+	"Skill: Rockets"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Вы получили: {red}{1} ракет{default}."
+		"en"	"You are get: {red}{1} rockets{default}."
+	}
+	"Skill: Shake ="
+	{
+		"#format"	"{1:.1f},{2:d}"
+		"ru"	"Скилл 'shake' {blue}активирован{default}. Длительность: {red}{1} сек. Шанс: {red}{2}%%"
+		"en"	"Skill 'shake' {blue}is activated{default}. Time: {red}{1} sec. Chance: {red}{2}%%"
+	}
+	"Skill: Shake +"
+	{
+		"#format"	"{1:.1f},{2:d}"
+		"ru"	"Скилл 'shake' {blue}активирован{default}. Длительность: {red}+{1} сек. Шанс: {red}{2}%%"
+		"en"	"Skill 'shake' {blue}is activated{default}. Time: {red}+{1} sec. Chance: {red}{2}%%"
+	}
+	"Skill: Shake -"
+	{
+		"#format"	"{1:.1f},{2:d}"
+		"ru"	"Скилл 'shake' {blue}активирован{default}. Длительность: {red}-{1} сек. Шанс: {red}{2}%%"
+		"en"	"Skill 'shake' {blue}is activated{default}. Time: {red}-{1} sec. Chance: {red}{2}%%"
+	}
+	"Skill: Longjump"
+	{
+		"#format"	"{1:.1f}"
+		"ru"	"Скилл 'longjump' {blue}активирован{default}. Сила: {red}{1}{default}."
+		"en"	"Skill 'longjump' {blue}is activated{default}. Power: {red}{1}{default}."
+	}
+	"Skill: Burn"
+	{
+		"#format"	"{1:.1f},{2:d}"
+		"ru"	"Скилл 'burn' {blue}активирован{default}. Длительность: {red}{1} сек. Шанс: {red}{2}%%"
+		"en"	"Skill 'burn' {blue}is activated{default}. Time: {red}{1} sec. Chance: {red}{2}%%"
+	}
+	"Skill: Armor -"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Скилл 'armor' {blue}активирован{default}. Урон будет уменьшен на: {red}{1} единиц{default}."
+		"en"	"Skill 'armor' {blue}is activated{default}. Damage will be reduced by: {red}{1}{default}."
+	}
+	"Skill: Armor %"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Скилл 'armor' {blue}активирован{default}. Урон будет уменьшен на: {red}{1}%%"
+		"en"	"Skill 'armor' {blue}is activated{default}. Damage will be reduced by: {red}{1}%%"
+	}
+	"Skill: Evasion"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Скилл 'evasion' {blue}активирован{default}. Шанс уклонения: {red}{1}%%"
+		"en"	"Skill 'evasion' {default}is activated{default}. Chance of evasion: {red}{1}%%"
+	}
+	"Skill: Dmg"
+	{
+		"#format"	"{1:.1f},{2:d}"
+		"ru"	"Скилл 'dmg' {blue}активирован{default}. Сила увеличена в {red}{1} раз{default}. Шанс: {red}{2}%%"
+		"en"	"Skill 'dmg' {blue}is activated{default}. Power is multiplie by {red}{1}{default}. Chance: {red}{2}%%"
+	}
+	"Skill: DmgHealth"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ru"	"Скилл 'dmghealth' {blue}активирован{default}. %% от макс здоровья врага в урон {red}{1}{default}. Шанс: {red}{2}%%"
+		"en"	"Skill 'dmghealth' {blue}is activated{default}. %% of max enemy's health to dmg {red}{1}{default}. Chance: {red}{2}%%"
+	}
+	"Skill: Vampire"
+	{
+		"#format"	"{1:.1f},{2:d}"
+		"ru"	"Скилл 'vampire' {blue}активирован{default}. Сила кровопития: {red}{1}{default}. Шанс: {red}{2}%%"
+		"en"	"Skill 'vampire' {blue}is activated{default}. Power of vampire: {red}{1}{default}. Chance: {red}{2}%%"
+	}
+	"Skill: Mirror"
+	{
+		"#format"	"{1:.1f},{2:d}"
+		"ru"	"Скилл 'mirror' {blue}активирован{default}. Сила отражения: {red}{1}{default}. Шанс: {red}{2}%%"
+		"en"	"Skill 'mirror' {blue}is activated{default}. Power of mirror: {red}{1}{default}. Chance: {red}{2}%%"
+	}
+	"Skill: Step"
+	{
+		"#format"	"{1:.1f}"
+		"ru"	"Вы получили скилл {green}'step'{default}. Высота шага: {blue}{1} {default}."
+		"en"	"You are successfully get skill {green}'step'{default}. Size of step: {blue}{1} {default}."
+	}
+	"Skill: Regen"
+	{
+		"#format"	"{1:.1f},{2:d}"
+		"ru"	"Регенирация здоровья {blue}активирована{default}. Откат: {red}{1}{default}, Здоровье: {red}{2}{default}."
+		"en"	"Health regenirations {blue}is activated{default}. Cooldown: {red}{1}{default}, Health: {red}{2}{default}."
+	}
+	"Skill: Slow"
+	{
+		"#format"	"{1:.1f},{2:d}"
+		"ru"	"Скилл 'slow' {blue}активирован{default}. Длительность: {red}{1} сек. Шанс: {red}{2}%%"
+		"en"	"Skill 'slow' {blue}is activated{default}. Time: {red}{1} sec{default}. Chance: {red}{2}%%"
+	}
+	"Skill: Freeze"
+	{
+		"#format"	"{1:.1f},{2:d}"
+		"ru"	"Скилл 'freeze' {blue}активирован{default}. Длительность: {red}{1} сек. Шанс: {red}{2}%%"
+		"en"	"Skill 'freeze' {blue}is activated{default}. Time: {red}{1} sec{default}. Chance: {red}{2}%%"
+	}
+	"Skill: Fear"
+	{
+		"#format"	"{1:.1f},{2:d}"
+		"ru"	"Скилл 'fear' {blue}активирован{default}. Длительность: {red}{1} сек. Шанс: {red}{2}%%"
+		"en"	"Skill 'fear' {blue}is activated{default}. Time: {red}{1} sec{default}. Chance: {red}{2}%%"
+	}
+	"Skill: Paralyze"
+	{
+		"#format"	"{1:.1f},{2:d}"
+		"ru"	"Скилл 'paralyze' {blue}активирован{default}. Длительность: {red}{1} сек. Шанс: {red}{2}%%"
+		"en"	"Skill 'paralyze' {blue}is activated{default}. Time: {red}{1} sec{default}. Chance: {red}{2}%%"
+	}
+	"Skill: Blind"
+	{
+		"#format"	"{1:.1f},{2:d}"
+		"ru"	"Скилл 'blind'{blue}активирован{default}. Длительность: {red}{1} сек. Шанс: {red}{2}%%"
+		"en"	"Skill 'blind' {blue}is activated{default}. Time: {red}{1} sec{default}. Chance: {red}{2}%%"
+	}
+	"Skill: Adrenaline"
+	{
+		"#format"	"{1:.1f},{2:.1f},{3:d}"
+		"ru"	"Скилл 'adrenaline' {blue}активирован{default}. Длительность: {red}{1} сек{default}. Доп скорость: {red}{2}{default}. Шанс: {red}{3}%%"
+		"en"	"Skill 'adrenaline' {blue}is activated{default}. Time: {red}{1} sec{default}. Speed: {red}{2}{default}. Chance: {red}{3}%%"
+	}
+	"Skill: Poison"
+	{
+		"#format"	"{1:.1f},{2:.1f},{3:.1f},{4:d}"
+		"ru"	"Скилл 'poison' {blue}активирован{default}. Длительность: {red}{1} сек{default}. Частота: {red}{2}{default}. Урон: {red}{3}{default}. Шанс: {red}{4}%%"
+		"en"	"Skill 'poison' {blue}is activated{default}. Time: {red}{1} sec{default}. Frequency: {red}{2}{default}. Damage: {red}{3}{default}. Chance: {red}{4}%%"
+	}
+	"Skill: Clearance"
+	{
+		"#format"	"{1:.1f},{2:d}"
+		"ru"	"Скилл 'clearance' {blue}активирован{default}. Длительность: {red}{1} сек. Шанс: {red}{2}%%"
+		"en"	"Skill 'clearance' {blue}is activated{default}. Time: {red}{1} sec{default}. Chance: {red}{2}%%"
+	}	
+	"Skill: AntiFall"
+	{
+		"ru"	"Защита от падения {blue}активирована{default}."
+		"en"	"Fall protection {blue}is activated{default}."
+	}
+	"Skill: AttackSpeed"
+	{
+		"#format"	"{1:.1f}"
+		"ru"	"Скилл 'attackspeed' {blue}активирован{default}. Скорость атаки: {red}{1} сек."
+		"en"	"Skill 'attackspeed' {blue}is activated{default}. Attack speed: {red}{1} sec."
+	}
+	"Skill: TKnives"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Скилл 'tknives' {blue}активирован{default}. Вы получили: {red}{1} метательных ножей."
+		"en"	"Skill 'tknives' {blue}is activated{default}. You got: {red}{1} throwing knives."
+	}
+	"Skill: Aim"
+	{
+		"#format"	"{1:s}"
+		"ru"	"Скилл 'aim' {blue}активирован{default}. Автоприцеливание: {lightgreen}{1}{default}."
+		"en"	"Skill 'aim' {blue}is activated{default}. Autoaim: {lightgreen}{1}{default}."
+	}
+	"Skill: Gravity"
+	{
+		"#format"	"{1:.1f}"
+		"ru"	"Ваша гравитация уменьшена на {red}{1}%%"
+		"en"	"Your gravity is reduced by: {red}{1}%%"
+	}
+	"Skill: Speed reduced"
+	{
+		"#format"	"{1:.1f}"
+		"ru"	"Ваша скорость уменьшена на {red}{1}%%"
+		"en"	"Your speed is reduced by: {red}{1}%%"
+	}
+	"Skill: Speed up"
+	{
+		"#format"	"{1:.1f}"
+		"ru"	"Ваша скорость увеличена на {red}{1}%%"
+		"en"	"Your speed is added: {red}{1}%%"
+	}
+	"Skill: Speed set"
+	{
+		"#format"	"{1:.1f}"
+		"ru"	"Ваша скорость установлена на {red}{1}%%"
+		"en"	"Your speed is set to: {red}{1}%%"
+	}
+	"Skill: Glow"
+	{
+		"#format"	"{1:.1f},{2:.1f}"
+		"ru"	"Скилл 'glow' {blue}активирован{default}. Частота: {red}{1} сек{default}. Невидимость: {blue}{2}%%"
+		"en"	"Skill 'glow' {blue}is activated{default}. Time for enabling: {red}{1} sec{default}. Invisibility: {blue}{2}%%"
+	}
+	"Skill: Push"
+	{
+		"#format"	"{1:.1f},{2:d}"
+		"ru"	"Скилл 'push' {blue}активирован{default}. Сила: {red}{1}. Шанс: {red}{2}%%"
+		"en"	"Skill 'push' {blue}is activated{default}. Power: {red}{1}. Chance: {red}{2}%%"
+	}
+	"Skill: UltimateReducer %"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ru"	"Откат Вашего ультимэйта{default}({1}) {default}уменьшен на {red}{2}%%"
+		"en"	"Your ultimate's{default}({1}) {default}cooldown time has reduced by {red}{2}%%"
+	}
+	"Skill: UltimateReducer -"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ru"	"Откат Вашего ультимэйта{default}({1}) {default}уменьшен на {red}{2} секунд."
+		"en"	"Your ultimate's{default}({1}) {default}cooldown time has reduced by {red}{2} seconds."
+	}
+	"Skill: Skin"
+	{
+		"#format"	"{1:s}"
+		"ru"	"Скилл 'skin' {blue}активирован{default}. Модель: {red}{1}{default}."
+		"en"	"Skill 'skin' {blue}is activated{default}. Model: {red}{1}{default}."
+	}
+	"Skill: Respawn"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ru"	"Скилл 'respawn' {blue}активирован{default}. Количество: {blue}{1}{default}. Шанс: {red}{2}%%"
+		"en"	"Skill 'respawn' {blue}is activated{default}. Amount: {blue}{1}{default}. Chance: {red}{2}%%"
+	}
+	"Skill: Respawn event"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Сработал скилл 'respawn'{default}. Вы успешно возрождены. {blue}({1} осталось)"
+		"en"	"Skill 'respawn'{default}: You are successfully respawned. {blue}({1} left)"
+	}
+	"Skill: Chameleon"
+	{
+		"#format"	"{1:s}"
+		"ru"	"Скилл 'chameleon' {blue}активирован{default}. Модель: {red}{1}{default}."
+		"en"	"Skill 'chameleon' {blue}is activated{default}. Model: {red}{1}{default}."
+	}
+	"Skill: Size"
+	{
+		"#format"	"{1:.1f}"
+		"ru"	"Скилл 'size' {blue}активирован{default}. Размер: {red}{1}{default}."
+		"en"	"Skill 'size' {blue}is activated{default}. Size: {red}{1}{default}."
+	}
+	"Skill: ProtectFreeze"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Скилл 'protectfreeze' {blue}активирован{default}. Снижение шанса: {red}{1}%%"
+		"en"	"Skill 'protectfreeze' {blue}is activated{default}. Reduced chance: {red}{1}%%"
+	}
+	"Skill: Hp"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Скилл 'hp' {blue}активирован{default}. HP: {red}{1}{default}."
+		"en"	"Skill 'hp' {blue}is activated{default}. HP: {red}{1}{default}."
+	}
+	"Skill: Cash"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Скилл 'cash' {blue}активирован{default}. Деньги: {red}{1}{default}."
+		"en"	"Skill 'cash' {blue}is activated{default}. Cash: {red}{1}{default}."
+	}
+	"Skill: Losso"
+	{
+		"#format"	"{1:.1f},{2:d}"
+		"ru"	"Скилл 'losso' {blue}активирован{default}. Сила притягивания {red}{1}{default}. Шанс: {red}{2}%%"
+		"en"	"Skill 'losso' {blue}is activated}{default}. Losso power {red}{1}{default}. Chance: {red}{2}%%"
+	}
+	"Skill: Repel"
+	{
+		"#format"	"{1:.1f},{2:d}"
+		"ru"	"Скилл 'repel' {blue}активирован{default}. Сила отталкивания {red}{1}{default}. Шанс: {red}{2}%%"
+		"en"	"Skill 'repel' {blue}is activated}{default}. Repel power {red}{1}{default}. Chance: {red}{2}%%"
+	}
+	"Skill: DropWeapon"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Скилл 'dropweapon' {blue}активирован{default}. Шанс: {red}{1}%%"
+		"en"	"Skill 'dropweapon' {blue}is activated{default}. Chance: {red}{1}%%"
+	}
+	"Skill: Mole"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Скилл 'mole' {blue}активирован{default}. Шанс: {red}{1}%%"
+		"en"	"Skill 'mole' {blue}is activated{default}. Chance: {red}{1}%%"
+	}
+	"Skill: Mole event"
+	{
+		"ru"	"Скилл 'mole' {blue}сработал{default}. Вы телепортированы на вражеский респавн."
+		"en"	"Skill 'mole' {blue}success{default}. You are teleported at enemy's respawn."
+	}
+	"Skill: GrenLauncher"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ru"	"Скилл 'grenlauncher' {blue}активирован{default}. Количество подствольных гранат: {red}{1}{default}. Урон: {blue}{2}."
+		"en"	"Skill 'grenlauncher' {blue}is activated{default}. Amount of gren launchers: {red}{1}{default}. Damage: {blue}{2}."
+	}
+	"Skill: StealCash"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ru"	"Скилл 'stealcash' {blue}активирован{default}. Кол-во: {red}{1}{default}. Шанс: {blue}{2}"
+		"en"	"Skill 'stealcash' {blue}is activated{default}. Amount: {red}{1}{default}. Chance: {blue}{2}"
+	} 
+	"Skill: RadarInvis"
+	{
+		"ru"	"Скилл 'radarinvis' {blue}активирован{default}. Теперь Вы не видны на радаре."
+		"en"	"Skill 'radarinvis' {blue}is activated{default}. Now you're invisible at radar."
+	}
+	"Dmg attacker"
+	{
+		"#format"	"{1:.1f},{2:N}"
+		"ru"	"Вы нанесли {1} урона {2}"
+		"en"	"You are damaged {1} to {2}"
+	}
+	"Dmg victim"
+	{
+		"#format"	"{1:.1f},{2:N}"
+		"ru"	"Вы получили {1} урона от {2}"
+		"en"	"You are damaged {1} by {2}"
+	}
+
+	// Ultimate's translations:
+	"Ultimate: RapidFire"
+	{
+		"#format"	"{1:.1f}"
+		"ru"	"Вы активировали ультимэйт 'RapidFire' на {blue}{1} {default} секунд."
+		"en"	"You are successfully activate the ultimate 'RapidFire' for {blue}{1} {default} sec."
+	}
+	"Ultimate is deactivate: rapidfire"
+	{
+		"ru"	"{red}Ультимэйт 'RapidFire' деактивирован."
+		"en"	"{red}The ultimate 'RapidFire' is deactivated."
+	}
+	"Ultimate: WebShot"
+	{
+		"ru"	"Вы выстрелили паутиной."
+		"en"	"You are fire the web."
+	}
+	"Ultimate: WebShot not successfully"
+	{
+		"ru"	"Выстрел паутины {red}не может быть выполнен{default}, так как Вы заморожены."
+		"en"	"Web shot {red}can not be successfully activated{default}, because you are froze."
+	}
+	"Ultimate: Fatality"
+	{
+		"#format"	"{1:N}"
+		"ru"	"{default}[{red}Fatality{default}]{green}{1} {default}был телепортирован к Вам."
+		"en"	"{default}[{red}Fatality{default}]{green}{1} {default}has teleported to you."
+	}
+	"Ultimate: Fatality failed"
+	{
+		"ru"	"{green}[{red}Fatality{default}]: Не удалось найти цель."
+		"en"	"{green}[{red}Fatality{default}]: Can't find target."
+	}
+	"Ultimate: God"
+	{
+		"#format"	"{1:.1f}"
+		"ru"	"Бессмертие {blue}активировано {default}на {red}{1} сек{default}."
+		"en"	"Immortal {blue}is activated {default}for {red}{1} sec{default}."
+	}
+	"Ultimate: God is off"
+	{
+		"ru"	"Бессмертие отключено."
+		"en"	"Immortal is off."
+	}
+	"Ultimate: Teleport"
+	{
+		"ru"	"Вы успешно телепортированы."
+		"en"	"You successfully teleported."
+	}
+	"Ultimate: Teleport not successfully"
+	{
+		"ru"	"Телепорт {red}не может быть выполнен{default}, так как Вы заморожены."
+		"en"	"Teleport {red}can not be successfully activated{default}, because you are froze."
+	}
+	"Ult: RandWeapon"
+	{
+		"#format"	"{1:s}"
+		"ru"	"Вы получили случайное оружие: {red}{1}{default}."
+		"en"	"You are get random weapon: {red}{1}{default}."
+	}
+	"Ultimate: Silence client"
+	{
+		"#format"	"{1:N},{2:.1f}"
+		"ru"	"Вы были обезмолвлены {default}{1} {default}на {red}{2} {default}секунд."
+		"en"	"You are silenced by {default}{1} {default}for {red}{2} {default}sec."
+	}
+	"Ultimate: Silence activator"
+	{
+		"#format"	"{1:N},{2:.1f}"
+		"ru"	"Вы обезмолвили {default}{1} {default}на {red}{2} {default}секунд."
+		"en"	"You silence {default}{1} {default}for {red}{2} {default}sec."
+	}
+	"Ultimate: Disarm client"
+	{
+		"#format"	"{1:N},{2:.1f}"
+		"ru"	"Вы были обезоружены {default}{1} {default}на {red}{2} {default}секунд."
+		"en"	"You are disarmed by {default}{1} {default}for {red}{2} {default}sec."
+	}
+	"Ultimate: Disarm activator"
+	{
+		"#format"	"{1:N},{2:.1f}"
+		"ru"	"Вы обезоружили {default}{1} {default}на {red}{2} {default}секунд."
+		"en"	"You disarm {default}{1} {default}for {red}{2} {default}sec."
+	}
+	"Ult: Paralyze event"
+	{
+		"#format"	"{1:N},{2:.1f}"
+		"ru"	"{lightgreen}[{green}Стан{lightgreen}] {default}Вы оглушили игрока {red}{1} {default}на {blue}{2} сек."
+		"en"	"{lightgreen}[{green}Stun{lightgreen}] {default}You stun player {red{1} {default}to {blue}{2} sec."
+	}
+	"Ult: Paralyze event2"
+	{
+		"#format"	"{1:N},{2:.1f}"
+		"ru"	"{lightgreen}[{green}Стан{lightgreen}] {default}Вас оглушил игрок {red}{1} {default}на {blue}{2} сек."
+		"en"	"{lightgreen}[{green}Stun{lightgreen}] {default}You are stunned by a player {red}{1} {default}to {blue}{2} sec."
+	}
+	"Ult: SpeedBuf"
+	{
+		"#format"	"{1:.1f},{2:.1f}"
+		"ru"	"Ваша скорость увеличена на {blue}{1} {default}на {default}{2} секунд."
+		"en"	"Your movement speed increased by {blue}{1} {default}to {default}{2} sec."
+	}
+	"Ult: SpeedBuf off"
+	{
+		"ru"	"Ваша скорость восстановлено до нормального значения."
+		"en"	"Your movement speed has been resetted to normal."
+	}
+	"Ult: DmgBuf"
+	{
+		"#format"	"{1:.1f},{2:d},{3:.1f}"
+		"ru"	"Ваш урон увеличен на {blue}{1}%% {default}Шанс {red}{2}{default}.На {default}{3} секунд."
+		"en"	"Your damage has increased by {blue}{1}%% {default}Chance {red}{2}{default}.For {default}{3} sec."
+	}
+	"Ult: DmgBuf off"
+	{
+		"ru"	"Ваш урон восстановлен до нормального значения."
+		"en"	"Your damage has been resetted to normal."
+	}
+	"Ult: Heal"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Ваше здоровье увеличено на {red}{1}."
+		"en"	"Your health has increased by {red}{1}."
+	}
+	"Ult: CashHeal"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ru"	"Вы успешно получили {red}{1} здоровья {default}за {green}{2}$"
+		"en"	"You successfull got {red}{1} health {default}by {green}{2}$"
+	}	
+	"Ult: CashHeal fail"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Вы не можете получить здоровье, т.к. недостаточно денег. Требуется {green}{1}$"
+		"en"	"You can't got health, because you don't have required cash. Required cash is {green}{1}$"
+	}	
+	"Ult: Explode event kill"
+	{
+		"#format"	"{1:.1f},{2:N}"
+		"ru"	"{default}[Explode]{default} Вы нанесли {red}{1} {default}урона игроку {blue}{2} {default}, и это стало {red}сокрушительным {default}для него."
+		"en"	"{default}[Explode]{default} You deal {red}{1} {default}damage to player {blue}{2} {default}and it was {red}smashing blow {default}for him."
+	}
+	"Ult: Explode event kill enemy"
+	{
+		"#format"	"{1:.1f},{2:N}"
+		"ru"	"{default}[Explode]{default} Вы получили {red}{1} {default}урона от игрока {blue}{2} {default}, и это стало {red}сокрушительным {default}для Вас."
+		"en"	"{default}[Explode]{default} You got {red}{1} {default}damage by player {blue}{2} {default}and it was {red}smashint blow {default}for you."
+	}
+	"Ult: Explode event hurt"
+	{
+		"#format"	"{1:.1f},{2:N}"
+		"ru"	"{default}[Explode]{default} Вы нанесли {red}{1} {default}урона игроку {blue}{2}."
+		"en"	"{default}[Explode]{default} You deal {red}{1} {default}damage to player {blue}{2}."
+	}
+	"Ult: Explode event hurt enemy"
+	{
+		"#format"	"{1:.1f},{2:N}"
+		"ru"	"{default}[Explode]{default} Вы получили {red}{1} {default}урона от игрока {blue}{2}."
+		"en"	"{default}[Explode]{default} You got {red}{1} {default}damage by player {blue}{2}."
+	}
+	"Ult: Eclipse"
+	{
+		"#format"	"{1:.1f},{2:d}"
+		"ru"	"{blue}Начался звездопад. {default}Урон: {red}{1}{default}. {blue}Количество: {red}{2}{default}."
+		"en"	" {blue}Started starts falling. {default}Damage: {red}{1}{default}. {blue}Amount: {red}{2}{default}."
+	}
+	"Ult: Steal success"
+	{
+		"#format"	"{1:N}"
+		"ru"	"Вы своровали ультимэйт {red}{1}"
+		"en"	"You steal ultimate {red}{1}"
+	}
+	"Ult: Steal fail"
+	{
+		"ru"	"Не получилось своровать ультимэйт. Поблизости нет врагов."
+		"en"	"Cant steal ultimate. Nearby there are no enemies."
+	}
+	"Ult: Saw success"
+	{
+		"#format"	"{1:N}"
+		"ru"	"{green}{1} {default}был успешно {red}напуган."
+		"en"	"{green}{1} {default}have successfully {red}scared."
+	}
+	"Ult: Saw fail"
+	{
+		"ru"	"{default}[{default}Saw{default}] {green}Не удалось найти цель."
+		"en"	"{default}[{default}Saw{default}] {green}Can't find enemy."
+	}
+	"Ult: Doom success"
+	{
+		"#format"	"{1:N},{2:.1f}"
+		"ru"	"{default}[{gold}Doom{default}] {green}Игрок {green}{1} {green}был проклят на {default}{2} сек."
+		"en"	"{default}[{gold}Doom{default}] {green}Player {green}{1} {green}has been cursed for {default}{2} sec."
+	}
+	"Ult: Doom fail"
+	{
+		"ru"	"{default}[{gold}Doom{default}] {green}Не удалось найти цель."
+		"en"	"{default}[{gold}Doom{default}] {green}Can't find enemy."
+	}
+	"Ult: Chaos successfully"
+	{
+		"#format"	"{1:s}"
+		"ru"	"{default}[{red}Chaos{default}] {green}Игроки [{green}{1}{green}] попали в Хаос."
+		"en"	"{default}[{red}Chaos{default}] {green}Players [{green}{1}{green} has gone to Chaos."
+	}
+	"Ult: Chaos failed"
+	{
+		"ru"	"{default}[{red}Chaos{default}] {green}Не удалось найти цель."
+		"en"	"{default}[{red}Chaos{default}] {green}Can't find enemy."
+	}
+	"Ult: ChronoSphere enemies"
+	{
+		"#format"	"{1:N}"
+		"ru"	"{default}[{blue}ChronoSphere{default}] {green}Вы попали в купол игрока {red}{1}."
+		"en"	"{default}[{blue}ChronoSphere{default}] {green}You just crossed a sphere player {red}{1}."
+	}
+	"Ult: ChronoSphere successfully finished"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ru"	"{default}[{blue}ChronoSphere{default}] {green}В Ваш купол попало {green}{1} человек. {green}Награда: {red}{2}XP."
+		"en"	"{default}[{blue}ChronoSphere{default}] {green}At sphere was {green}{1} peoples. {green}Bounty: {2} XP."
+	}
+	"Ult: ChronoSphere failed finished"
+	{
+		"ru"	"{default}[{blue}ChronoSphere{default}] {green}В Ваш купол не попало ни одного человека."
+		"en"	"{default}[{blue}ChronoSphere{default}] {green}At your sphere was 0 players."
+	}
+	"Ult: ChronoSphere failed"
+	{
+		"#format"	"{1:.1f}"
+		"ru"	"{default}[{blue}ChronoSphere{default}] {green}Не удалось установить купол. Слишком далеко. ({1} > 600.0)"
+		"en"	"{default}[{blue}ChronoSphere{default}] {green}Can't create a sphere. Invalid distance. ({1} > 600.0)"
+	}
+	"Portal now blocked"
+	{
+		"ru"	"{lightgreen}Сейчас невозможно войти в портал. Подождите 1 секунду."
+		"en"	"{lightgreen}Now you can't log into the portal. Wait 1 sec."
+	}
+	"Portal successfully created"
+	{
+		"ru"	"{lightgreen}Портал успешно создан."
+		"en"	"{lightgreen}Portal successfully created."
+	}
+	"Portals successfully removed"
+	{
+		"ru"	"{lightgreen}Порталы успешно удалены."
+		"en"	"{lightgreen}Portals successfully removed."
+	}
+	
+	// Ability's translations:
+	"Ability: Totem"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Тотем успешно создан. {default}(Осталось: {1})"
+		"en"	"Totem successfully created. {default}(Left: {1})"
+	}
+	"Totem: Damaged"
+	{
+		"#format"	"{1:N}"
+		"ru"	"Вы были ранены тотемом {red}{1}."
+		"en"	"You damaged by {red}{1}'s totem."
+	}
+	"Totem: Healed"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"Вы были излечены тотемом {red}{1} {default}и у вас восстановлено {blue}{2} единиц здоровья."
+		"en"	"You was healed by {red}{1}'s {default} totem and you get {blue}{2} health."
+	}
+	"Totem: limit"
+	{
+		"ru"	"Вы не можете поставить больше тотемов."
+		"en"	"You are don't have more totems."
+	}
+
+	// Admin's translations:
+	"Race successfully given"
+	{
+		"#format"	"{1:N},{2:s}"
+		"ru"	"{lightgreen}Игрок {red}{1} {lightgreen}успешно получил приватную расу: {blue}{2}{lightgreen}."
+		"en"	"{lightgreen}Player {red}{1} {lightgreen}successfully gain private race: {blue}{2}{lightgreen}."
+	}
+	"Race successfully given client"
+	{
+		"#format"	"{1:N},{2:s}"
+		"ru"	"{lightgreen}Администратор {red}{1} {lightgreen}выдал Вам приватную расу: {blue}{2}{lightgreen}."
+		"en"	"{lightgreen}Administrator {red}{1} {lightgreen}give to you private race: {blue}{2}{lightgreen}."
+	}
+	"Race successfully taken"
+	{
+		"#format"	"{1:N},{2:s}"
+		"ru"	"{lightgreen}Игрок {red}{1} {lightgreen}успешно потерял приватную расу: {blue}{2}{lightgreen}."
+		"en"	"{lightgreen}Player {red}{1} {lightgreen}successfully taken private race: {blue}{2}{lightgreen}."
+	}
+	"Race successfully taken client"
+	{
+		"#format"	"{1:N},{2:s}"
+		"ru"	"{lightgreen}Администратор {red}{1} {lightgreen}отнял у Вас приватную расу: {blue}{2}{lightgreen}."
+		"en"	"{lightgreen}Administrator {red}{1} {lightgreen}take your private race: {blue}{2}{lightgreen}."
+	}
+	"Vip successfully given client"
+	{
+		"#format"	"{1:N},{2:d},{3:s}"
+		"ru"	"{lightgreen}Администратор {red}{1} {lightgreen}выдал Вам VIP: {blue}{2}%% {default}[{3}]"
+		"en"	"{lightgreen}Administrator {red}{1} {lightgreen}give to you VIP: {blue}{2}%% {default}[{3}]"
+	}
+	"Vip successfully given"
+	{
+		"#format"	"{1:N},{2:d},{3:s}"
+		"ru"	"{lightgreen}Игрок {red}{1} {lightgreen}успешно получил VIP: {blue}{2}%% {default}[{3}]"
+		"en"	"{lightgreen}Player {red}{1} {lightgreen}successfully gain VIP: {blue}{2}%% {default}[{3}]"
+	}
+	"Vip successfully taken client"
+	{
+		"#format"	"{1:N}"
+		"ru"	"{lightgreen}Администратор {red}{1} {lightgreen}отнял у Вас VIP."
+		"en"	"{lightgreen}Administrator {red}{1} {lightgreen}take your VIP."
+	}
+	"Vip successfully taken"
+	{
+		"#format"	"{1:N}"
+		"ru"	"{lightgreen}Игрок {red}{1} {lightgreen}успешно потерял VIP."
+		"en"	"{lightgreen}Player {red}{1} {lightgreen}successfully taken VIP."
+	}
+	"PAdmin: removed prop admin"
+	{
+		"#format"	"{1:N}"
+		"ru"	"{lightgreen}Вы удалили предмет игрока: {red}{1}{lightgreen}."
+		"en"	"{lightgreen}You are delete prop: {red}{1}{lightgreen}."
+	}
+	"PAdmin: removed prop client"
+	{
+		"#format"	"{1:N}"
+		"ru"	"{lightgreen}Ваш предмет удалил администратор: {red}{1}{lightgreen}."
+		"en"	"{lightgreen}Your prop delete by administrator: {red}{1}{lightgreen}."
+	}
+	"Your race was reset"
+	{
+		"#format"	"{1:N},{2:s}"
+		"ru"	"{lightgreen}Администратор {red}{1} {lightgreen}обнулил Вашу расу: {blue}{2}{lightgreen}."
+		"en"	"{lightgreen}Administrator {red}{1} {lightgreen}reset your race: {blue}{2}{lightgreen}."
+	}
+	"You are reset player race"
+	{
+		"#format"	"{1:N},{2:s}"
+		"ru"	"{lightgreen}Вы обнулили расу игрока {red}{1} {lightgreen}: {blue}{2}{lightgreen}."
+		"en"	"{lightgreen}You are reset player {red}{1} {lightgreen}race: {blue}{2}{lightgreen}."
+	}
+	"You are full reset admin"
+	{
+		"#format"	"{1:N}"
+		"ru"	"{lightgreen}Вы полностью обнулили игрока {red}{1}{lightgreen}."
+		"en"	"{lightgreen}You are full reset player {red}{1}{lightgreen}."
+	}
+	"You are full reset player"
+	{
+		"#format"	"{1:N}"
+		"ru"	"{lightgreen}Вас полностью обнулил администратор {red}{1}{lightgreen}."
+		"en"	"{lightgreen}Administrator {red}{1} {lightgreen}reset all your races."
+	}
+	"Admin: gain credits player"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"{lightgreen}Администратор {red}{1} {lightgreen}дал Вам {blue}{2} {lightgreen}кредитов."
+		"en"	"{lightgreen}Administrator {red}{1} {lightgreen}give to you {blue}{2} {lightgreen}credits."	
+	}
+	"Admin: gain credits admin"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"{lightgreen}Игрок {red}{1} {lightgreen}успешно получил {blue}{2} {lightgreen}кредитов."
+		"en"	"{lightgreen}Player {red}{1} {lightreen}successfully gain {blue}{2} {lightgreen}credits."
+	}
+	"Admin: take credits player"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"{lightgreen}Администратор {red}{1} {lightgreen}отнял у Вас {blue}{2} {lightgreen}кредитов."
+		"en"	"{lightgreen}Administrator {red}{1} {lightgreen}take your {blue}{2} {lightgreen}credits."	
+	}
+	"Admin: take credits admin"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"{lightgreen}Игрок {red}{1} {lightgreen}успешно потерял {blue}{2} {lightgreen}кредитов."
+		"en"	"{lightgreen}Player {red}{1} {lightreen}successfully taken {blue}{2} {lightgreen}credits."
+	}
+	"Admin: reset credits player"
+	{
+		"#format"	"{1:N}"
+		"ru"	"{lightgreen}Администратор {red}{1} {lightgreen}обнулил Ваши кредиты."
+		"en"	"{lightgreen}Administrator {red}{1} {lightgreen}reset your credits."	
+	}
+	"Admin: reset credits admin"
+	{
+		"#format"	"{1:N}"
+		"ru"	"{lightgreen}Кредиты игрока {red}{1} {lightgreen}успешно {blue}обнулены."
+		"en"	"{lightgreen}Credits player {red}{1} {lightreen}successfully {blue}resetted."
+	}
+	"Admin: gain gold player"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"{lightgreen}Администратор {red}{1} {lightgreen}дал Вам {blue}{2} {lightgreen}золота."
+		"en"	"{lightgreen}Administrator {red}{1} {lightgreen}give to you {blue}{2} {lightgreen}gold."	
+	}
+	"Admin: gain gold admin"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"{lightgreen}Игрок {red}{1} {lightgreen}успешно получил {blue}{2} {lightgreen}золота."
+		"en"	"{lightgreen}Player {red}{1} {lightreen}successfully gain {blue}{2} {lightgreen}gold."
+	}
+	"Admin: take gold player"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"{lightgreen}Администратор {red}{1} {lightgreen}отнял у Вас {blue}{2} {lightgreen}золота."
+		"en"	"{lightgreen}Administrator {red}{1} {lightgreen}take your {blue}{2} {lightgreen}gold."	
+	}
+	"Admin: take gold admin"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"{lightgreen}Игрок {red}{1} {lightgreen}успешно потерял {blue}{2} {lightgreen}золота."
+		"en"	"{lightgreen}Player {red}{1} {lightreen}successfully taken {blue}{2} {lightgreen}gold."
+	}
+	"Admin: reset gold player"
+	{
+		"#format"	"{1:N}"
+		"ru"	"{lightgreen}Администратор {red}{1} {lightgreen}обнулил Ваше золото."
+		"en"	"{lightgreen}Administrator {red}{1} {lightgreen}reset your gold."	
+	}
+	"Admin: reset gold admin"
+	{
+		"#format"	"{1:N}"
+		"ru"	"{lightgreen}Золото игрока {red}{1} {lightgreen}успешно {blue}обнулено."
+		"en"	"{lightgreen}Gold player {red}{1} {lightreen}successfully {blue}resetted."
+	}
+	"Admin: gain lvl player"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"{lightgreen}Администратор {red}{1} {lightgreen}дал Вам {blue}{2} {lightgreen}уровней."
+		"en"	"{lightgreen}Administrator {red}{1} {lightgreen}give to you {blue}{2} {lightgreen}levels."	
+	}
+	"Admin: gain lvl admin"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"{lightgreen}Игрок {red}{1} {lightgreen}успешно получил {blue}{2} {lightgreen}уровней."
+		"en"	"{lightgreen}Player {red}{1} {lightreen}successfully gain {blue}{2} {lightgreen}levels."
+	}
+	"Admin: gain xp player"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"{lightgreen}Администратор {red}{1} {lightgreen}дал Вам {blue}{2} {lightgreen}XP."
+		"en"	"{lightgreen}Administrator {red}{1} {lightgreen}give to you {blue}{2} {lightgreen}XP."	
+	}
+	"Admin: gain xp admin"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"{lightgreen}Игрок {red}{1} {lightgreen}успешно получил {blue}{2} {lightgreen}XP."
+		"en"	"{lightgreen}Player {red}{1} {lightreen}successfully gain {blue}{2} {lightgreen}XP."
+	}
+	"Admin: gain lb lvl player"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"{lightgreen}Администратор {red}{1} {lightgreen}дал Вам {blue}{2} {lightgreen}уровней в {green}Банк Уровней{lightgreen}."
+		"en"	"{lightgreen}Administrator {red}{1} {lightgreen}give to you {blue}{2} {lightgreen}levels to {green}Lvl Bank{lightgreen}."	
+	}
+	"Admin: gain lb lvl admin"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"{lightgreen}Игрок {red}{1} {lightgreen}успешно получил {blue}{2} {lightgreen}уровней в {green}Банк Уровней{lightgreen}."
+		"en"	"{lightgreen}Player {red}{1} {lightreen}successfully gain {blue}{2} {lightgreen}levels to {green}Lvl Bank{lightgreen}."
+	}
+	"Admin: taken lb lvl player"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"{lightgreen}Администратор {red}{1} {lightgreen}отнял у Вас {blue}{2} {lightgreen}уровней из {green}Банка Уровней{lightgreen}."
+		"en"	"{lightgreen}Administrator {red}{1} {lightgreen}give to you {blue}{2} {lightgreen}levels from {green}Lvl Bank{lightgreen}."	
+	}
+	"Admin: taken lb lvl admin"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"{lightgreen}Игрок {red}{1} {lightgreen}успешно потерял {blue}{2} {lightgreen}уровней из {green}Банка Уровней{lightgreen}."
+		"en"	"{lightgreen}Player {red}{1} {lightreen}successfully taken {blue}{2} {lightgreen}levels from {green}Lvl Bank{lightgreen}."
+	}
+	"Admin: divided lb lvl player"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"{lightgreen}Администратор {red}{1} {lightgreen}умножил Ваши {blue}{2} {lightgreen}уровни в {green}Банке Уровней{lightgreen}."
+		"en"	"{lightgreen}Administrator {red}{1} {lightgreen}has been divided your {blue}{2} {lightgreen}levels to {green}Lvl Bank{lightgreen}."	
+	}
+	"Admin: divided lb lvl admin"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"{lightgreen}Игрок {red}{1} {lightgreen}успешно получил умножение {blue}{2} {lightgreen}уровней в {green}Банк Уровней{lightgreen}."
+		"en"	"{lightgreen}Player {red}{1} {lightreen}successfully gain divide {blue}{2} {lightgreen}levels to {green}Lvl Bank{lightgreen}."
+	}
+	"Admin: set lb lvl player"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"{lightgreen}Администратор {red}{1} {lightgreen}установил Вам {blue}{2} {lightgreen}уровней в {green}Банк Уровней{lightgreen}."
+		"en"	"{lightgreen}Administrator {red}{1} {lightgreen}set to you {blue}{2} {lightgreen}levels to {green}Lvl Bank{lightgreen}."	
+	}
+	"Admin: set lb lvl admin"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ru"	"{lightgreen}Игрок {red}{1} {lightgreen}успешно получил {blue}{2} {lightgreen}уровней в {green}Банк Уровней{lightgreen}."
+		"en"	"{lightgreen}Player {red}{1} {lightreen}successfully gain {blue}{2} {lightgreen}levels to {green}Lvl Bank{lightgreen}."
+	}
+
+	// Vip translations
+	"Vip time is expired"
+	{
+		"#format"	"{1:s}"
+		"ru"	"{red}Вышло время. С Вас сняты VIP права. {default}[{1}]"
+		"en"	"{red}Time is out. Your VIP rights are removed. {default}[{1}]"
+	}
+	
+	// Other translations:
+	"Ultimate blocked. Silenced"
+	{
+		"ru"	"Ультимэйт {olive}заблокирован{default}. {default}На Вас молчание."
+		"en"	"Ultimate {olive}has blocked{default}. {default}You are silenced."
+	}
+	"Timer ult cld"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Идет откат ультимэйта...\nОсталось: {1} секунд"
+		"en"	"Ultimate is on cooldown... Wait: {1} sec"
+	}
+	"Starting fixs races"
+	{
+		"#format"	"{1:s}"
+		"ru"	"Сканирования списка рас началось в: {default}{1}"
+		"en"	"Scanning of race list starting at: {default}{1}"
+	}
+	"Ending fixs races"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ru"	"Сканирования списка рас закончилось в: {default}{1}, Ошибка: {2}"
+		"en"	"Scanning of race list ended at: {default}{1}, Error: {2}"
+	}
+	"Ending fixs races no errors"
+	{
+		"#format"	"{1:s}"
+		"ru"	"Сканирование списка рас закончилось в: {default}{1}. Ошибок нет."
+		"en"	"Scanning of race list ended at: {default}{1}. No errors."
+	}
+
+	// Shop Cats translations:
+	"attackCat"
+	{
+		"ru"	"Атака"
+		"en"	"Attack"
+	}
+	"protectCat"
+	{
+		"ru"	"Защита"
+		"en"	"Protect"
+	}
+	"additionalItemsCat"
+	{
+		"ru"	"Дополнительные вещи"
+		"en"	"Additional Items"
+	}
+	"ammoCat"
+	{
+		"ru"	"Патроны"
+		"en"	"Ammo"
+	}
+	"otherCat"
+	{
+		"ru"	"Прочее"
+		"en"	"Other"
+	}
+	"propsCat"
+	{
+		"ru"	"Предметы"
+		"en"	"Props"
+	}
+	"healthCat"
+	{
+		"ru"	"Здоровье"
+		"en"	"Health"
+	}
+	"xpCat"
+	{
+		"ru"	"Опыт"
+		"en"	"XP"
+	}
+	"trailsCat"
+	{
+		"ru"	"Трейлы"
+		"en"	"Trails"
+	}
+
+	// WCSadmin phrase:
+	"WCSadmin: XpLvlMain"
+	{
+		"ru"	"Управление опытом и уровнями"
+		"en"	"Manage xp and levels"
+	}
+	"WCSadmin: GoldMain"
+	{
+		"ru"	"Управление золотом"
+		"en"	"Manage gold"
+	}
+	"WCSadmin: CreditsMain"
+	{
+		"ru"	"Управление кредитами"
+		"en"	"Manage credits"
+	}
+	"WCSadmin: PrivateRaceMain"
+	{
+		"ru"	"Управление приватными расами"
+		"en"	"Manage private races"
+	}
+	"WCSadmin: VipMain"
+	{
+		"ru"	"Управление VIP"
+		"en"	"Manage VIP"
+	}
+	"WCSadmin: PropsMain"
+	{
+		"ru"	"Управление предметами"
+		"en"	"Manage props"
+	}
+	"WCSadmin: SettingsMain"
+	{
+		"ru"	"Настройки"
+		"en"	"Settings"
+	}
+	"WCSadmin: GiveXp"
+	{
+		"ru"	"Дать опыт"
+		"en"	"Give XP"
+	}
+	"WCSadmin: GiveLvl"
+	{
+		"ru"	"Дать уровни"
+		"en"	"Give lvls"
+	}
+	"WCSadmin: ResetPlayer"
+	{
+		"ru"	"Обнулить игрока"
+		"en"	"Reset player"
+	}
+	"WCSadmin: FullResetPlayer"
+	{
+		"ru"	"Полностью обнулить игрока"
+		"en"	"Full reset player"
+	}
+	"WCSadmin: Myself"
+	{
+		"ru"	"Себе"
+		"en"	"Myself"
+	}
+	"WCSadmin: All"
+	{
+		"ru"	"Всем"
+		"en"	"All"
+	}
+	"WCSadmin: GiveGold"
+	{
+		"ru"	"Дать золото"
+		"en"	"Give gold"
+	}
+	"WCSadmin: TakeGold"
+	{
+		"ru"	"Отнять золото"
+		"en"	"Take gold"
+	}
+	"WCSadmin: ResetGold"
+	{
+		"ru"	"Сбросить золото"
+		"en"	"Reset gold"
+	}
+	"WCSadmin: GiveCredits"
+	{
+		"ru"	"Дать кредиты"
+		"en"	"Give credits"
+	}
+	"WCSadmin: TakeCredits"
+	{
+		"ru"	"Отнять кредиты"
+		"en"	"Take credits"
+	}
+	"WCSadmin: ResetCredits"
+	{
+		"ru"	"Сбросить кредиты"
+		"en"	"Reset credits"
+	}
+	"WCSadmin: GivePrivateRace"
+	{
+		"ru"	"Дать приватную расу"
+		"en"	"Give private race"
+	}
+	"WCSadmin: TakePrivateRace"
+	{
+		"ru"	"Отнять приватную расу"
+		"en"	"Take private race"
+	}
+	"WCSadmin: GiveVip"
+	{
+		"ru"	"Дать VIP"
+		"en"	"Give VIP"
+	}
+	"WCSadmin: TakeVip"
+	{
+		"ru"	"Отнять VIP"
+		"en"	"Take VIP"
+	}
+	"WCSadmin: EditVip"
+	{
+		"ru"	"Изменить VIP лист"
+		"en"	"Edit VIP list"
+	}
+	"WCSadmin: ReloadWCS"
+	{
+		"ru"	"Перезагрузить WC:Source"
+		"en"	"Reload WC:Source"
+	}
+	"WCSadmin: Back"
+	{
+		"ru"	"Назад"
+		"en"	"Back"
+	}
+	"WCSadmin: No access"
+	{
+		"ru"	"{default}У Вас нет доступа к данной команде."
+		"en"	"{default}You don't have access to this command."
+	}
+
+	// Gold bets
+	"Bet ok"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ru"	"Ваша ставка: {red}{1} {default}за команду {green}{2} {default}принята."
+		"en"	"Your bet: {red}{1} {default}for team {green}{2} {default}accepted."
+	}
+	"Bet fail"
+	{
+		"ru"	"{red}У Вас недостаточно золота."
+		"en"	"{red}You have no required gold."
+	}
+	"Bet fail alive"
+	{
+		"ru"	"{red}Вы должны быть мертвы."
+		"en"	"{red}You should be dead."
+	}
+	"Bet win"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Вы выиграли {red}{1} {green}золота."
+		"en"	"You won {red}{1} {green}gold."
+	}
+	
+	// Rtd phrases
+	"Rtd: Cant use - Max"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Вы не можете использовать 'rtd' больше {red}{1} раз(а/ов)."
+		"en"	"You can't use 'rtd' more than {red}{1} times."
+	}
+	"Rtd: Cant use - Dead"
+	{
+		"ru"	"Только {lightgreen}живые {default}игроки могут использовать данную команду."
+		"en"	"Only {lightgreen}alive {default}players can use this command."
+	}
+	"Rtd: disabled"
+	{
+		"ru"	"К сожалению, 'rtd' отключено на данном сервере."
+		"en"	"Unfortunately, 'rtd' disabled on this server."
+	}
+
+	// Gold phrases
+	"Gold: Cant use - Max"
+	{
+		"#format"	"{1:d}"
+		"ru"	"Вы не можете использовать 'gold' больше {red}{1} раз(а/ов)."
+		"en"	"You can't use 'gold' more than {red}{1} times."
+	}
+	
+	// Rank phrases
+	"Rank: My stats"
+	{
+		"#format"	"{1:d},{2:d},{3:d},{4:d},{5:d}"
+		"ru"	"{default}Вы на позиции {green}{1}/{2} {default}и имеете {green}{3} уровень ({4} XP) и {5} золота."
+		"en"	"{default}You are in position {green}{1}/{2} {default}and you have {green}{3} lvl ({4} XP) and {5} gold."
+	}
+	"Rank: Other stats"
+	{
+		"#format"	"{1:N},{2:d},{3:d},{4:d},{5:d},{6:d}"
+		"ru"	"{default}Игрок {red}{1} {default}на позиции {green}{2}/{3} {default}и имеет {green}{4} уровень ({5} XP) и {6} золота."
+		"en"	"{default}Player {red}{1} {default}on position {green}{2}/{3} {default}and have {green}{4} lvl ({5} XP) and {6} gold."
+	}
+	"Rank: Disabled"
+	{
+		"ru"	"{default}На данном сервере выключена команда {green}wcsrank."	
+		"en"	"{default}On this server disabled command {green}wcsrank."
+	}
+	
+	// Flood block phrases
+	"WCS: Anti flood wcs"
+	{
+		"ru"	"{default}Вы не можете пользоваться командой {red}'wcs' {green}чаще 1 раза в 2 секунды."
+		"en"	"{default}You can't use command {red}'wcs' {green}more than 1 time in 2 seconds."
+	}
+	"WCS: Anti flood shop"
+	{
+		"ru"	"{default}Вы не можете пользоваться командой {red}'shop' {green}чаще 1 раза в 2 секунды."
+		"en"	"{default}You can't use command {red}'shop' {green}more than 1 time in 2 seconds."
+	}
+	"WCS: Anti flood cr"
+	{
+		"ru"	"{default}Вы не можете пользоваться командой {red}'changerace' {green}чаще 1 раза в 2 секунды."
+		"en"	"{default}You can't use command {red}'changerace' {green}more than 1 time in 2 seconds."
+	}
+}

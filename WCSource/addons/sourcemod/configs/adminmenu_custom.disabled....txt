@@ -1,0 +1,344 @@
+// Custom admin menu commands.
+// For more information:
+//
+// http://wiki.alliedmods.net/Custom_Admin_Menu_%28SourceMod%29
+//
+// Note: This file must be in Valve KeyValues format (no multiline comments)
+//
+
+"Commands"
+{
+	"title"		"WCS admin"
+	"Управление опытом и уровнями"
+	{
+		"admin"		"sm_reloadadmins"
+		"Дать XP"
+		{
+			"cmd"		"wcs_givexp #1 @2"
+			"execute"	"player"
+			"1"
+			{
+				"type"		"player"
+				"method"	"name"
+				"title"		"[WCSadmin]Выберите игрока:"
+			}
+			"2"
+			{
+				"type"		"list"
+				"title"		"[WCSadmin]Количество XP:"
+				"1"		"100"
+				"1."		"100 XP"
+				"2"		"1000"
+				"2."		"1000 XP"
+				"3"		"10000"
+				"3."		"10000 XP"
+				"4"		"100000"
+				"4."		"100000 XP"
+				"5"		"1000000"
+				"5."		"1000000 XP"
+			}
+		}
+		"Отнять XP"
+		{
+			"cmd"		"wcs_givexp #1 @2"
+			"execute"	"player"
+			"1"
+			{
+				"type"		"player"
+				"method"	"name"
+				"title"		"[WCSadmin]Выберите игрока:"
+			}
+			"2"
+			{
+				"type"		"list"
+				"title"		"[WCSadmin]Количество XP:"
+				"1"		"-100"
+				"1."		"-100 XP"
+				"2"		"-1000"
+				"2."		"-1000 XP"
+				"3"		"-10000"
+				"3."		"-10000 XP"
+				"4"		"-100000"
+				"4."		"-100000 XP"
+				"5"		"-1000000"
+				"5."		"-1000000 XP"
+			}
+		}
+		"Дать уровни"
+		{
+			"cmd"		"wcs_givelvl #1 @2"
+			"execute"	"player"
+			"1"
+			{
+				"type"		"player"
+				"method"	"name"
+				"title"		"[WCSadmin]Выберите игрока:"
+			}
+			"2"
+			{
+				"type"		"list"
+				"title"		"[WCSadmin]Количество уровней:"
+				"1"		"1"
+				"1."		"1 уровень"
+				"2"		"10"
+				"2."		"10 уровней"
+				"3"		"100"
+				"3."		"100 уровней"
+				"4"		"1000"
+				"4."		"1000 уровней"
+				"5"		"10000"
+				"5."		"10000 уровней"
+			}
+		}
+		"Отнять уровни"
+		{
+			"cmd"		"wcs_givelvl #1 @2"
+			"execute"	"player"
+			"1"
+			{
+				"type"		"player"
+				"method"	"name"
+				"title"		"[WCSadmin]Выберите игрока:"
+			}
+			"2"
+			{
+				"type"		"list"
+				"title"		"[WCSadmin]Количество уровней:"
+				"1"		"-1"
+				"1."		"-1 уровень"
+				"2"		"-10"
+				"2."		"-10 уровней"
+				"3"		"-100"
+				"3."		"-100 уровней"
+				"4"		"-1000"
+				"4."		"-1000 уровней"
+				"5"		"-10000"
+				"5."		"-10000 уровней"
+			}
+		}
+	}
+	"Управление золотом"
+	{
+		"admin"		"sm_reloadadmins"
+		"Дать золото"
+		{
+			"cmd"		"wcs_givegold #1 @2"
+			"execute"	"player"
+			"1"
+			{
+				"type"		"player"
+				"method"	"name"
+				"title"		"[WCSadmin]Выберите игрока:"
+			}
+			"2"
+			{
+				"type"		"list"
+				"title"		"[WCSadmin]Количество золота:"
+				"1"		"10"
+				"1."		"10 золота"
+				"2"		"100"
+				"2."		"100 золота"
+				"3"		"1000"
+				"3."		"1000 золота"
+				"4"		"10000"
+				"4."		"10000 золота"
+				"5"		"100000"
+				"5."		"100000 золота"
+			}
+		}
+		"Отнять золото"
+		{
+			"cmd"		"wcs_givegold #1 @2"
+			"execute"	"player"
+			"1"
+			{
+				"type"		"player"
+				"method"	"name"
+				"title"		"[WCSadmin]Выберите игрока:"
+			}
+			"2"
+			{
+				"type"		"list"
+				"title"		"[WCSadmin]Количество золота:"
+				"1"		"-10"
+				"1."		"-10 золота"
+				"2"		"-100"
+				"2."		"-100 золота"
+				"3"		"-1000"
+				"3."		"-1000 золота"
+				"4"		"-10000"
+				"4."		"-10000 золота"
+				"5"		"-100000"
+				"5."		"-100000 золота"
+			}
+		}
+	}
+	"Управление кредитами"
+	{
+		"admin"		"sm_reloadadmins"
+		"Дать кредиты"
+		{
+			"cmd"		"wcs_givecredits #1 @2"
+			"execute"	"player"
+			"1"
+			{
+				"type"		"player"
+				"method"	"name"
+				"title"		"[WCSadmin]Выберите игрока:"
+			}
+			"2"
+			{
+				"type"		"list"
+				"title"		"[WCSadmin]Количество кредитов:"
+				"1"		"10"
+				"1."		"10 кредитов"
+				"2"		"100"
+				"2."		"100 кредитов"
+				"3"		"1000"
+				"3."		"1000 кредитов"
+				"4"		"10000"
+				"4."		"10000 кредитов"
+				"5"		"100000"
+				"5."		"100000 кредитов"
+			}
+		}
+		"Отнять кредиты"
+		{
+			"cmd"		"wcs_givecredits #1 @2"
+			"execute"	"player"
+			"1"
+			{
+				"type"		"player"
+				"method"	"name"
+				"title"		"[WCSadmin]Выберите игрока:"
+			}
+			"2"
+			{
+				"type"		"list"
+				"title"		"[WCSadmin]Количество кредитов:"
+				"1"		"-10"
+				"1."		"-10 кредитов"
+				"2"		"-100"
+				"2."		"-100 кредитов"
+				"3"		"-1000"
+				"3."		"-1000 кредитов"
+				"4"		"-10000"
+				"4."		"-10000 кредитов"
+				"5"		"-100000"
+				"5."		"-100000 кредитов"
+			}
+		}
+	}
+	"Управление обнулениями"
+	{
+		"Обнулить текущую расу игрока"
+		{
+			"cmd"		"wcs_resetrace #1"
+			"execute"	"player"
+			"1"
+			{
+				"type"		"player"
+				"method"	"name"
+				"title"		"[WCSadmin]:Выберите игрока:"
+			}
+		}
+		"Полностью обнулить игрока"
+		{
+			"cmd"		"wcs_reset #1"
+			"execute"	"player"
+			"1"
+			{
+				"type"		"player"
+				"method"	"name"
+				"title"		"[WCSadmin]:Выберите игрока:"
+			}
+		}
+	}
+	"Управление приватными расами"
+	{
+		"admin"		"sm_reloadadmins"
+		"Дать приватную расу"
+		{
+			"cmd"		"wcs_giveprivate"
+			"execute"	"player"
+		}
+		"Отнять приватную расу"
+		{
+			"cmd"		"wcs_takeprivate"
+			"execute"	"player"
+		}
+	}
+	"Управление VIP"
+	{
+		"admin"		"sm_reloadadmins"
+		"Дать VIP"
+		{
+			"cmd"		"wcs_givevip"
+			"execute"	"player"
+		}
+		"Отнять VIP"
+		{
+			"cmd"		"wcs_takevip"
+			"execute"	"player"
+		}
+	}
+	"Управление предметами"
+	{
+		"admin"		"sm_reloadadmins"
+		"Меню предметов"
+		{
+			"cmd"		"wcs_padmin"
+			"execute"	"player"
+		}
+	}
+	"Настройки мода"
+	{
+		"admin"		"sm_reloadadmins"
+		"Изменить опыт за убийство"
+		{
+			"cmd"		"wcs_xp_kill #1"
+			"execute"	"server"
+			"1"
+			{
+				"type"	"list"
+				"title"	"[WCSadmin]: Выберите число"
+				"1"		"150"
+				"1."	"По умолчанию"
+				"2"		"600"
+				"2."	"600 XP"
+				"3"		"1200"
+				"3."	"1200 XP"
+			}
+		}
+		"Изменить опыт за хедшот"
+		{
+			"cmd"		"wcs_xp_head #1"
+			"execute"	"server"
+			"1"
+			{
+				"type"	"list"
+				"title"	"[WCSadmin]: Выберите число"
+				"1"		"100"
+				"1."	"По умолчанию"
+				"2"		"400"
+				"2."	"400 XP"
+				"3"		"800"
+				"3."	"800 XP"
+			}
+		}
+		"Включить/Отключить опыт за урон"
+		{
+			"cmd"		"wcs_xp_dmg_enabled #1"
+			"execute"	"server"
+			"1"
+			{
+				"type"	"list"
+				"title"	"[WCSadmin]: Выберите:"
+				"1"		"1"
+				"1."	"Включить"
+				"2"		"0"
+				"2."	"Выключить"
+			}
+		}
+	}
+}
