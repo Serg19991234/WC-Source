@@ -435,7 +435,7 @@ forward WCS_OnRaceChangePost(client);
  *
  * PaymentType -- "cash" или "gold"
  */
-forward Action:WCS_OnItemPurchasePre(client, const String:ItemName[], const String:BlockName[], ItemCost, const String:PaymentType);
+forward Action:WCS_OnItemPurchasePre(client, const String:ItemName[], const String:BlockName[], ItemCost, const String:PaymentType[]);
 
 /**
  * Called on client item purchase post
