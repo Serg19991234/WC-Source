@@ -442,3 +442,9 @@ forward Action:WCS_OnItemPurchasePre(client, const String:ItemName[], const Stri
  *
  */
 forward WCS_OnItemPurchasePost(client);
+
+/**
+ * Called on client skills just set
+ *
+ */
+forward WCS_OnSkillsSet(client, const String:Race[]);
