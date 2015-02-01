@@ -40,7 +40,7 @@ native bool:WCS_GetAntiTotem(index);
  * @param index    An integer.
  * @return        Client's credits.
  */
-native bool:WCS_GetCredits(index);
+native WCS_GetCredits(index);
 
 /**
  * Get client's gold.
@@ -351,6 +351,23 @@ native bool:WCS_ResetUltCld(client);
  * @return        true on success, false otherwise.
  */
 native bool:WCS_ResetAbilityCld(client);
+
+/**
+ * Checks if the race is private
+ *
+ * @param racename	An string. [64]
+ * @return			true on success, false otherwise.
+ */
+native bool:WCS_IsRacePrivate(const String:RaceName[]);
+
+/**
+ * Gives a private race to client
+ *
+ * @param steamid	An string. [64]
+ * @param racename	An string. [64]
+ * @return			true on success, false otherwise.
+ */
+native bool:WCS_GivePrivateRace(const String:SteamId[], const String:RaceName[]);
 
 /**
  * Called on client skill lvl up
