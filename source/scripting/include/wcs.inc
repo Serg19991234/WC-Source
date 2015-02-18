@@ -370,6 +370,22 @@ native bool:WCS_IsRacePrivate(const String:RaceName[]);
 native bool:WCS_GivePrivateRace(const String:SteamId[], const String:RaceName[]);
 
 /**
+ * Get client's totems count that he can use (every use totem this value will decreased and restored on special events [this value = GetClientTotemsMax on special events])
+ *
+ * @param client	An integer.
+ * @return			Amount of totems.
+ */
+native WCS_GetClientTotems(client);
+
+/**
+ * Get client's totems count maximum
+ *
+ * @param client	An integer.
+ * @return			Amount of maximum totems.
+ */
+native WCS_GetClientTotemsMax(client);
+
+/**
  * Called on client skill lvl up
  *
  */
