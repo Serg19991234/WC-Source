@@ -267,22 +267,22 @@
 	// WCS menu translations:
 	"ShopMenu"
 	{
-		"ru"	"Расходники\n--------------------"
+		"ru"	"Магазин"
 		"en"	"Shopmenu"
 	}
 	"ShopMenu3"
 	{
-		"ru"	"Экипировка"
+		"ru"	"Вещи"
 		"en"	"Items"
 	}
 	"ShopInfo"
 	{
-		"ru"	"Информация о магазине"
+		"ru"	"О магазине"
 		"en"	"Shopinfo"
 	}
 	"ChangeRace"
 	{
-		"ru"	"Смена расы\n--------------------"
+		"ru"	"Сменить расу"
 		"en"	"Changerace"
 	}
 	"ChangeRaceFavorite"
@@ -292,7 +292,7 @@
 	}
 	"SpendSkills"
 	{
-		"ru"	"Распределить навыки\n--------------------"
+		"ru"	"Изучить навыки"
 		"en"	"Spend skills"
 	}
 	"ResetSkills"
@@ -302,12 +302,12 @@
 	}
 	"RaceInfo"
 	{
-		"ru"	"Инфа о расах"
+		"ru"	"Описание рас"
 		"en"	"Raceinfo"
 	}
 	"PlayerInfo"
 	{
-		"ru"	"Инфа об игроках\n--------------------"
+		"ru"	"Данные игроков"
 		"en"	"Playerinfo"
 	}
 	"LevelBank"
@@ -327,7 +327,7 @@
 	}
 	"PlayerLK"
 	{
-		"ru"	"Личное меню\n--------------------"
+		"ru"	"Личный кабинет"
 		"en"	"Personal area"
 	}
 	"WCS_Title"
