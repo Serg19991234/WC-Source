@@ -1467,11 +1467,26 @@
 		"ru"	"Защита от урона в голову {blue}активирована{default}."
 		"en"	"Anti head protection {blue}has activated{default}."
 	}
+	"Skill: AntiWh"
+	{
+		"ru"	"Защита от WH {blue}активирована{default}."
+		"en"	"Anti WH protection {blue}has activated{default}."
+	}
+	"Skill: AntiAim"
+	{
+		"ru"	"Защита от AIM {blue}активирована{default}."
+		"en"	"Anti AIM protection {blue}has activated{default}."
+	}
+	"Skill: AntiMirror"
+	{
+		"ru"	"Защита от зеркального урона {blue}активирована{default}."
+		"en"	"Anti mirror damage protection {blue}has activated{default}."
+	}
 	"Skill: AttackSpeed"
 	{
-		"#format"	"{1:.2f}"
-		"ru"	"Скилл 'attackspeed' {blue}активирован{default}. Скорость атаки: {red}{1} сек."
-		"en"	"Skill 'attackspeed' {blue}has activated{default}. Attack speed: {red}{1} sec."
+		"#format"	"{1:d}"
+		"ru"	"Скилл 'attackspeed' {blue}активирован{default}. Скорость атаки: {red}{1} %%"
+		"en"	"Skill 'attackspeed' {blue}has activated{default}. Attack speed: {red}{1} %%"
 	}
 	"Skill: TKnives"
 	{
