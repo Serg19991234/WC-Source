@@ -1462,6 +1462,61 @@
 		"ru"	"Защита от ослепления {blue}активирована{default}."
 		"en"	"Flash protection {blue}has activated{default}."
 	}
+	"Skill: AntiFlash2"
+	{
+		"ru"	"Защита от пассивного ослепления {blue}активирована{default}."
+		"en"	"Passive flash protection {blue}has activated{default}."
+	}
+	"Skill: AntiParalyze"
+	{
+		"ru"	"Защита от пассивного паралича {blue}активирована{default}."
+		"en"	"Passive paralyze protection {blue}has activated{default}."
+	}
+	"Skill: AntiBury"
+	{
+		"ru"	"Защита от пассивного закапывания{blue}активирована{default}."
+		"en"	"Passive bury protection {blue}has activated{default}."
+	}
+	"Skill: AntiFear"
+	{
+		"ru"	"Защита от пассивного искажения экрана{blue}активирована{default}."
+		"en"	"Passive fear protection {blue}has activated{default}."
+	}
+	"Skill: AntiPoison"
+	{
+		"ru"	"Защита от пассивного отравления {blue}активирована{default}."
+		"en"	"Passive poison protection {blue}has activated{default}."
+	}
+	"Skill: AntiDrug"
+	{
+		"ru"	"Защита от пассивного опьянения {blue}активирована{default}."
+		"en"	"Passive drug protection {blue}has activated{default}."
+	}
+	"Skill: AntiBeacon"
+	{
+		"ru"	"Защита от пассивного маяка {blue}активирована{default}."
+		"en"	"Passive beacon protection {blue}has activated{default}."
+	}
+	"Skill: AntiTimeBomb"
+	{
+		"ru"	"Защита от пассивной временной бомбы {blue}активирована{default}."
+		"en"	"Passive timebomb protection {blue}has activated{default}."
+	}
+	"Skill: AntiShake"
+	{
+		"ru"	"Защита от пассивной тряски экрана {blue}активирована{default}."
+		"en"	"Passive shake protection {blue}has activated{default}."
+	}
+	"Skill: AntiPush"
+	{
+		"ru"	"Защита от пассивного подбрасывания {blue}активирована{default}."
+		"en"	"Passive push protection {blue}has activated{default}."
+	}
+	"Skill: AntiSetAngle"
+	{
+		"ru"	"Защита от пассивного изменения угла {blue}активирована{default}."
+		"en"	"Passive setangle protection {blue}has activated{default}."
+	}
 	"Skill: AntiHead"
 	{
 		"ru"	"Защита от урона в голову {blue}активирована{default}."
@@ -2050,6 +2105,28 @@
 		"ru"	"Бессмертие отключено."
 		"en"	"Immortal is off."
 	}
+	"Ultimate: GodAlly self"
+	{
+		"#format"	"{1:.1f}"
+		"ru"	"Вы активировали командное бессмертие на {1} сек."
+		"en"	"You have activated team god for {1} sec."
+	}
+	"Ultimate: GodAlly mate"
+	{
+		"#format"	"{1:.1f},{2:N}"
+		"ru"	"Командное бессмертие на {1} сек. {blue}активировал {red}{2}{default}."
+		"en"	"Team god {blue}has activated for {1} sec. by {red}{2}{default}."
+	}
+	"Ultimate: GodAlly Failed"
+	{
+		"ru"	"Командное бессмертие не активировано на Вас, т.к. Вы уже находитесь под похожим эффектом."
+		"en"	"Team god has failed, because you're already on the same effect."
+	}
+	"Ultimate: God ally is off"
+	{
+		"ru"	"{red}Командное бессмертие отключено."
+		"en"	"{red}Team god has been disabled."
+	}
 	"Ultimate: Teleport"
 	{
 		"ru"	"Вы успешно телепортированы."
@@ -2398,6 +2475,12 @@
 		"#format"	"{1:N}"
 		"ru"	"{lightgreen}Игрок {red}{1} {lightgreen}успешно потерял VIP."
 		"en"	"{lightgreen}Player {red}{1} {lightgreen}successfully taken VIP."
+	}
+	"You've got a private race!!!"
+	{
+		"#format"	"{1:s}"
+		"ru"	"Вы получили приватную расу {red}{1}{white}!!!"
+		"en"	"You've got a private race {red}{1}{white}!!!"
 	}
 	"PAdmin: removed prop admin"
 	{
