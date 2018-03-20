@@ -1517,6 +1517,11 @@
 		"ru"	"Защита от пассивного изменения угла {blue}активирована{default}."
 		"en"	"Passive setangle protection {blue}has activated{default}."
 	}
+	"Skill: AntiRockets"
+	{
+		"ru"	"Защита от ракет {blue}активирована{default}."
+		"en"	"Rockets protection {blue}has activated{default}."
+	}
 	"Skill: AntiHead"
 	{
 		"ru"	"Защита от урона в голову {blue}активирована{default}."
