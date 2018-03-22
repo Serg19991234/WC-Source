@@ -1254,6 +1254,12 @@
 		"ru"	"Скилл 'longjump' {blue}активирован{default}. Сила: {red}{1}%%"
 		"en"	"Skill 'longjump' {blue}has activated{default}. Power: {red}{1}%%"
 	}
+	"Skill: Longjump2"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ru"	"Скилл 'longjump2' {blue}активирован{default}. Сила: {red}{1}%% {default}Откат: {red}{2} сек."
+		"en"	"Skill 'longjump2' {blue}has activated{default}. Power: {red}{1}%% {default}Cooldown: {red}{2} sec."
+	}
 	"Skill: DoubleJumps"
 	{
 		"#format"	"{1:d}"
@@ -1886,17 +1892,53 @@
 		"ru"	"Откат абилити {blue}сброшен{default}."
 		"en"	"Ability cooldown {blue}has been resetted{default}."
 	}
+	"Dmg Hud attacker"
+	{
+		"#format"	"{1:s},{2:.2f},{3:N}"
+		"ru"	"[{1}] Вы нанесли {2} урона {3}"
+		"en"	"[{1}] You done damage {2} to {3}"
+	}
 	"Dmg attacker"
 	{
-		"#format"	"{1:.2f},{2:N}"
-		"ru"	"Вы нанесли {1} урона {2}"
-		"en"	"You done damage {1} to {2}"
+		"#format"	"{1:s},{2:.2f},{3:N}"
+		"ru"	"[{green}{1}{default}] Вы нанесли {red}{2} {default}урона {blue}{3}"
+		"en"	"[{green}{1}{default}] You done damage {red}{2} {default}to {blue}{3}"
+	}
+	"Dmg Hud victim"
+	{
+		"#format"	"{1:s},{2:.2f},{3:N}"
+		"ru"	"[{1}] Вы получили {2} урона от {3}"
+		"en"	"[{1}] You got a damage {2} by {3}"
 	}
 	"Dmg victim"
 	{
-		"#format"	"{1:.2f},{2:N}"
-		"ru"	"Вы получили {1} урона от {2}"
-		"en"	"You got a damage {1} by {2}"
+		"#format"	"{1:s},{2:.2f},{3:N}"
+		"ru"	"[{green}{1}{default}] Вы получили {red}{2} {default}урона от {blue}{3}"
+		"en"	"[{green}{1}{default}] You got a damage {red}{2} {default}by {blue}{3}"
+	}
+	"ExtraDmg Hud attacker"
+	{
+		"#format"	"{1:s},{2:.2f},{3:N}"
+		"ru"	"[{1}] Вы нанесли {2} ДОП УРОНА игроку {3}"
+		"en"	"[{1}] You done {2} EXTRA DMG to {3}"
+	}
+	"ExtraDmg attacker"
+	{
+		"#format"	"{1:s},{2:.2f},{3:N}"
+		"ru"	"[{green}{1}{default}] Вы нанесли {red}{2} {default}ДОП УРОНА игроку {blue}{3}"
+		"en"	"[{green}{1}{default}] You done {red}{2} {default}EXTRA DMG to {blue}{3}"
+	}
+	"ExtraDmg Hud victim"
+	{
+		"#format"	"{1:s},{2:.2f},{3:N}"
+		"ru"	"[{1}] Вы получили {2} ДОП УРОНА от игрока {3}"
+		"en"	"[{1}] You got {2} EXTRA DMG by {3}"
+	}
+	"ExtraDmg victim"
+	{
+		"#format"	"{1:s},{2:.2f},{3:N}"
+		"ru"	"[{green}{1}{default}] Вы получили {red}{2} {default}ДОП УРОНА от игрока {blue}{3}"
+		"en"	"[{green}{1}{default}] You got {red}{2} {default}EXTRA DMG by {blue}{3}"
 	}
 
 	// Ultimate's translations:
@@ -2484,8 +2526,8 @@
 	"You've got a private race!!!"
 	{
 		"#format"	"{1:s}"
-		"ru"	"Вы получили приватную расу {red}{1}{white}!!!"
-		"en"	"You've got a private race {red}{1}{white}!!!"
+		"ru"	"Вы получили приватную расу {red}{1}{default}!!!"
+		"en"	"You've got a private race {red}{1}{default}!!!"
 	}
 	"PAdmin: removed prop admin"
 	{
@@ -3229,5 +3271,11 @@
 		"#format"	"{1:.1f},{2:.1f},{3:.1f}"
 		"ru"	"{green}[Аура молчания] {default}Радиус: {red}{1}{default}, Длительность: {red}{2}{default}, Частота: {red}{3}{default}."
 		"en"	"{green}[Aura silence] {default}Radius: {red}{1}{default}, Duration: {red}{2}, Tick: {red}{3}{default}."
+	}
+	"AuraAlly: Heal"
+	{
+		"#format"	"{1:.1f},{2:d},{3:.1f}"
+		"ru"	"{green}[Союзная аура лечения] {default}Радиус: {red}{1}{default}, Лечение: {red}{2}{default}, Частота: {red}{3}{default}."
+		"en"	"{green}[Ally aura of heal] {default}Radius: {red}{1}{default}, Heal: {red}{2}, Tick: {red}{3}{default}."
 	}
 }
